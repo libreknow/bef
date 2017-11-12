@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": "https://github.com/pabloarak/pabloarak.github.io",
   "author": "Pablo Arak",
-  "license": "MIT",
+  "license": "GNU-GPL",
   "dependencies": {
     "browser-sync": "^2.18.8",
     "child_process": "^1.0.2",

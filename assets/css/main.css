@@ -3926,7 +3926,7 @@ cite {
 }
 
 .main_header {
-  padding: 2rem;
+  padding: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3993,6 +3993,8 @@ cite {
 }
 
 .chapters .chapter {
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
   position: relative;
   float: left;
   width: 32.333%;
@@ -4022,13 +4024,18 @@ cite {
 }
 
 .chapters .chapter_inner {
+  font-weight: bold;
+  text-align: center;
   position: absolute;
-  left: 2.5%;
+  left: 0;
   bottom: 10%;
+  top: 50%;
+  width: 100%;
 }
 
 .chapters .chapter_inner .chapter_number, .chapters .chapter_inner .chapter_title {
-  color: #ffffff;
+  color: #222222;
+  font-weight: bold;
 }
 
 .chapters .chapter_inner .chapter_number {
@@ -4042,12 +4049,10 @@ cite {
   display: block;
   width: 40px;
   margin-top: 0.3rem;
-  border-top: 3px solid #c25b6c;
 }
 
 .chapters .chapter_inner .chapter_title {
   font-size: 1.75rem;
-  font-weight: 400;
   margin: 0 0 0.5rem 0;
 }
 

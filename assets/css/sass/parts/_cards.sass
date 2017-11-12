@@ -3,6 +3,7 @@
 .chapters
   padding: 2rem 0
   .chapter
+    border-radius: 50%
     position: relative
     float: left
     width: 32.333%
@@ -19,11 +20,16 @@
         transform: scale(1.5)
 
   .chapter_inner
+    font-weight: bold
+    text-align: center
     position: absolute
-    left: 2.5%
+    left: 0
     bottom: 10%
+    top: 50%
+    width: 100%
     .chapter_number, .chapter_title
-      color: $white
+      color: #222222
+      font-weight: bold
     .chapter_number
       font-size: 0.9rem
       text-transform: uppercase
@@ -33,9 +39,8 @@
         display: block
         width: 40px
         margin-top: 0.3rem
-        border-top: 3px solid $border_red
+        // border-top: 3px solid $border_red
 
     .chapter_title
       font-size: 1.75rem
-      font-weight: 400
       margin: 0 0 0.5rem 0
