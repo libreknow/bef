@@ -6,10 +6,54 @@ date: 2017-11-10 12:54:00 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 tag: [Kanban, Visual Thinking]
 ---
-Flexitarian hella quinoa, stumptown chillwave squid heirloom pop-up church-key. Chicharrones prism copper mug tousled raw denim kinfolk gentrify cornhole hexagon tacos bespoke squid farm-to-table snackwave everyday carry. Vaporware chicharrones activated charcoal jianbing pok pok. Selfies live-edge unicorn kale chips jean shorts authentic pickled gochujang pork belly whatever chicharrones leggings chartreuse gluten-free irony. Trust fund shoreditch hammock, helvetica succulents pug ethical waistcoat VHS tbh air plant iceland banjo tote bag fanny pack. Ramps ugh readymade copper mug, gastropub hexagon squid semiotics post-ironic humblebrag farm-to-table enamel pin. Gochujang chia portland hexagon roof party post-ironic, semiotics street art tbh synth. Air plant vinyl sustainable pork belly. Chicharrones cronut raw denim listicle flexitarian franzen. Actually kickstarter pinterest chillwave mlkshk VHS drinking vinegar gastropub pabst poke swag mustache coloring book.
+En el artículo anterior hable de los mapas mentales y de como esta herramienta puede ayudar a ordenar mejor tus ideas o proyectos a través de una imagen. A partir de esto, mencione Kanban como una herramienta visual para administrar y mejorar el avance de cada una de estas ideas o proyectos. 
 
-Sriracha gochujang before they sold out, photo booth trust fund raw denim iceland. Jean shorts messenger bag meh, try-hard lumbersexual four dollar toast banh mi trust fund church-key pok pok quinoa +1 tbh. Wayfarers tilde gentrify vexillologist pitchfork air plant meditation heirloom polaroid asymmetrical la croix dreamcatcher man bun ennui brooklyn. Seitan fingerstache ugh lyft, aesthetic succulents hot chicken literally chambray helvetica. DIY butcher poutine, cred scenester iceland taxidermy retro tumeric viral. Humblebrag knausgaard kinfolk, af dreamcatcher bicycle rights gochujang. Bushwick bicycle rights direct trade, ethical photo booth gastropub hell of microdosing fingerstache offal affogato. Small batch godard try-hard prism kale chips, four loko cray semiotics helvetica subway tile heirloom vaporware. Venmo VHS keytar succulents chambray.
+Kanban es un método que se basa en limitar el trabajo en curso (Work In Progress, WIP), y solo iniciar una nueva tarea cuando otra tarea previa haya pasado a la siguiente actividad o haya llegado al final del flujo de trabajo. Un Kanban (que en japonés significa “Tarjeta Visual”), representa una tarjeta visual (por ejemplo, un post-it :)) y con ello una nueva tarea a realizar cuando el trabajo actual no alcanza el limite fijado. A simple vista parece una herramienta muy sencilla y que no va a afectar profundamente la forma de trabajar de uno o del equipo, pero no es así :P, con tan solo estos cambios muy pequeños, Kanban logra generar grandes mejoras.
 
-> Brunch hella poutine authentic farm-to-table. Stumptown craft beer lomo, heirloom single-origin coffee synth PBR&B post-ironic. <cite>- Lorem Ipsum</cite>
+Tarjeta Visual.
 
-Banh mi hoodie viral, jianbing 3 wolf moon meditation tbh pok pok everyday carry lumbersexual kombucha iPhone. Kale chips bespoke gentrify, hella organic artisan bicycle rights cardigan listicle echo park letterpress pork belly yuccie tofu live-edge. Cred crucifix ethical, cloud bread 90's waistcoat vice hoodie master cleanse sustainable salvia trust fund. Ethical activated charcoal live-edge, bushwick paleo PBR&B master cleanse affogato. Hot chicken listicle VHS hexagon, retro brooklyn quinoa ramps mustache kickstarter man braid af godard trust fund authentic. Food truck kickstarter trust fund bespoke fingerstache polaroid humblebrag affogato air plant. Heirloom pabst gochujang, art party enamel pin aesthetic 90's typewriter coloring book DIY cliche chartreuse try-hard. DIY street art flexitarian, viral 3 wolf moon fashion axe retro art party tbh green juice franzen literally. Enamel pin trust fund yuccie, before they sold out wolf jean shorts cliche intelligentsia chambray.
+El método Kanban, desarrollado por David J. Anderson, es un método de trabajo enfocado en el cambio y en la mejora personal, de los equipos y/o organizaciones. Es un camino para comenzar a visualizar el trabajo del día a día, identificar y eliminar los cuellos de botella que conllevan estos trabajos, y poco a poco, paso a paso, lograr grandes mejoras en términos de rendimiento y calidad del trabajo desarrollado.
+
+El principio de Kanban es comenzar con lo que estás haciendo ahora (Ejemplo: un proyecto), comprender su flujo actual (Ejemplo: las fases o actividades del proyecto), fijar los límites del WIP para cada fase del flujo, y comenzar a hacer fluir las tareas a medida que se generen nuevas y el WIP sea respetado.
+
+Un WIP limitado hará que cualquier elemento que se bloquea por alguna razón atasque el flujo. Esto hace que el foco del trabajo se concentre en resolver el problema para permitir la restauración del flujo.
+
+Kanban utiliza el control visual para hacer seguimiento de las tareas a medida que estas avanzan por el flujo. Comúnmente se usa una pizarra con post-its que la persona o el equipo pueden ver y manipular de acuerdo al trabajo realizado. Esta manera visual de administrar el flujo de trabajo, expone todas las cosas que impactan el rendimiento en términos de cantidad de trabajo a realizar y de tiempo que se requiere para terminarlo. Permite ver los efectos de tus acciones o de las del equipo, abriendo la posibilidad de reflexionar al respecto y comenzar a implementar mejoras en el flujo.
+
+Tableros Kanban de Distintos Proyectos
+
+Kanban promueve la evolución incremental del flujo existente, un cambio gradual que surge del entendimiento y de la adaptación al cambio.
+
+Bueno, basta de teoría, ¿Cómo nos iniciamos en Kanban?, la mejor manera es empezar con uno mismo, con los proyectos y tareas que tenemos que hacer o estamos haciendo actualmente. Seguir los siguientes pasos:
+
+1) En una hoja o pizarra blanca, dibujar 3 columnas con los siguientes nombres: Por Hacer, Haciendo y Hecho.
+
+Tablero Kanban 1
+
+2) Hacer un listado de tareas pendientes utilizando post-its, en donde en cada uno de ellos se escribirá la tarea a realizar.
+
+Tareas Pendientes
+
+3) De la lista de tareas pendientes, elegir las 3 más urgentes y agregarlas a la columna “Por Hacer”. La ventaja de iniciar hasta con 3 tareas “Por Hacer” es que no sobrecargamos la columna y se pueden observan los avances claramente, al contrario de tener cientos de post-its moviendose de un lado a otro, en donde la vista puede no ser muy agradable.
+
+Tablero Kanban 2
+
+4) En la columna “Haciendo” colocar las tareas que se empezarán. Al igual que en la columna anterior, es recomendable limitar la cantidad de tareas a tener de 1 a 2, para no perder el foco y dispersarse en trabajo de paralelo de muchas tareas que nunca terminas. Uno de los principios claves de Kanban es “deja de comenzar, comienza a terminar”. A medida que veas que tu trabajo paralelo mejora, o si requieres trabajar en mas tareas al mismo tiempo (y si te la puedes), puedes aumentar el WIP de esta columna.
+
+Tablero Kanban 3
+
+5) Por último, en la columna “Hecho”, colocar todas las tareas terminadas. El objetivo de esta columna es visualizar el logro y mantener la motivación :D.
+
+Tablero Kanban 4
+
+Hace ya 5 años que utilizo Kanban para administrar mis proyectos, los de mi trabajo, y actividades de todo tipo, y lo que mas me ha llamado la atención de este método es su aspecto motivador a través de la visualización de los logros y de la capacidad de uno mismo para terminar las tareas. Uno puede pensar que no lo va a lograr, no va a lograr terminar todo ese montón de tareas a tiempo, pero si uno lista las tareas pendientes o hace un mapa mental para visualizar de mejor manera una idea o proyecto, y finalmente se hace un plan de trabajo utilizando un método como Kanban, te impresionaras de lo que eres capaz de llegar a hacer :)
+
+Referencias y Lecturas Recomendadas.
+
+[1] http://www.djaa.com/principles-kanban-method-0
+
+[2] http://es.slideshare.net/agilemanager/10-years-of-kanban-what-have-we-learned
+
+[3] http://efectivitat.com/2013/06/kanban-personal-perfecto-para-vaciar-la-carpeta-de-tareas-pendientes/
+
+[4] Kanban y Scrum – obteniendo lo mejor de ambos, Henrik Kniberg, Mattias Skarin, InfoQ.
