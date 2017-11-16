@@ -2,11 +2,11 @@
 layout: post
 title: "Kanban: Primeros Pasos"
 img: Kanban4.jpg # Add image post (optional)
-date: 2017-11-10 12:54:00 +0300
+date: 2017-11-10 21:00:00 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-tag: [Kanban, Visual Thinking]
+tag: [Kanban, Visual Thinking, Agil]
 ---
-En el artículo anterior hable de los mapas mentales y de como esta herramienta puede ayudar a ordenar mejor tus ideas o proyectos a través de una imagen. A partir de esto, mencione Kanban como una herramienta visual para administrar y mejorar el avance de cada una de estas ideas o proyectos. 
+En el artículo anterior hable de los mapas mentales y de como esta herramienta puede ayudar a ordenar mejor tus ideas o proyectos a través de una imagen. A partir de esto, mencione Kanban como una herramienta visual para administrar y mejorar el avance de cada una de estas ideas o proyectos.
 
 Kanban es un método que se basa en limitar el trabajo en curso (Work In Progress, WIP), y solo iniciar una nueva tarea cuando otra tarea previa haya pasado a la siguiente actividad o haya llegado al final del flujo de trabajo. Un Kanban (que en japonés significa “Tarjeta Visual”), representa una tarjeta visual (por ejemplo, un post-it :)) y con ello una nueva tarea a realizar cuando el trabajo actual no alcanza el limite fijado. A simple vista parece una herramienta muy sencilla y que no va a afectar profundamente la forma de trabajar de uno o del equipo, pero no es así :P, con tan solo estos cambios muy pequeños, Kanban logra generar grandes mejoras.
 

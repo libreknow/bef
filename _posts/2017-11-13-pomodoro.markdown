@@ -1,0 +1,60 @@
+---
+layout: post
+title: "Pomodoro"
+img: pomodoro.png # Add image post (optional)
+date: 2017-11-13 21:00:00 +0300
+description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+tag: [Pomodoro, Agil]
+---
+Una de las ventajas del método Kanban, es que te permite centrarte en un cierto número de tareas. Si en la columna de "Doing" tenemos un WIP de 2 tareas, no incluiremos ninguna tarea de la columna "To Do" hasta que por lo menos 1 tarea haya sido terminada. Pero ¿cuanto tiempo podemos tardar en terminar 1 tarea?, depende de diversos factores, y uno de los más importantes es: la Atención.
+
+Hoy en día existen multiples formas de distraernos cuando tenemos tareas o compromisos (contigo mismo o con otros) que cumplir. El puro hecho de estar conectados a Facebook, Twitter, Linkedin, Whatsapp, entre otras redes sociales o chats, mientras estamos trabajando en alguna tarea, aumenta notablemente el tiempo de demora en terminar esa tarea (A no ser que tu trabajo sea la red social :P). No es muy dificil darse cuenta de ello:
+
+*... comenzamos a trabajar en una tarea.... '¡tintuntun!' ... mensaje de Whatsapp... volvemos a trabajar... '¡dunin!' ... mensaje de Facebook ... no volvemos a trabajar, nos quedamos ejercitando el dedo  en el muro de Facebook... volvemos a trabajar... finalmente, lo que podriamos haber hecho en 15 minutos lo hacemos en 1 hora...*
+
+<img alt="Redes Sociales" src="/content/images/2016/02/redesSociales.jpg" width="400" height="300"/>
+
+Entonces, ¿cómo evito distraerme en la era de las distracciones? ¡estamos llenos de estímulos!. Bueno, ¡fácil!, cuando trabajes en una tarea, comienza con lo principal:
+
+* desconectar tu celular de Internet,
+* en tu computador, cerrar todo lo que no necesites para concretar tu tarea,
+* apagar la música (a no ser que sea música adhoc al trabajo que haces, y que en verdad no te distraiga),
+* y concentrar toda tu atención en la tarea que tienes que realizar aquí y ahora.
+
+Parece fácil, pero no lo es. No sabes cuanto tiempo demorarás en terminar la tarea, y además, quieres hacer otra cosa (ver el whatsapp, el facebook, etc) pero debes tratar de mantener la atención unidireccional. Al final, la ansiedad termina por superarte y vuelves a distraerte.
+
+Es aquí donde la técnica Pomodoro (creada por Francesco Cirillo) entra en juego, ofreciendo un sistema de ciclos para mantener una atención unidireccional en las taresa, y superar la ansiedad relacionada al tiempo y los estímulos. Hay 5 pasos básicos para utilizar esta técnica:
+
+**1)** Elije una tarea a realizar.
+
+<img alt="Seleccion de Tarea" src="/content/images/2016/02/Kanban3.jpg" width="400" height="400"/>
+
+**2)** Ajusta un temporizador (Pomodoro) a 25 minutos.
+
+<img alt="Pomodoro Timer" src="/content/images/2016/02/pomodoroTimer.jpg" width="400" height="500"/>
+
+**3)** Trabaja en la tarea hasta que suene el Pomodoro o termines la tarea. A continuación, tomar nota del tiempo empleado en el avance o finalización de la tarea.
+
+<img alt="Escribir Tiempo" src="/content/images/2016/02/writeTime.jpg" width="400" height="500"/>
+
+**4)** Tomar un breve descanso (5 minutos está bien). Has lo que quieras: ve tu celular, el whatsap, el computador, acuestate, date unas vueltas, camina, etc.
+
+**5)** Cada 4 Pomodoros, tomar un descanso largo (recomendable de 15 a 30 minutos).
+
+Vuelve a comenzar con los pasos anteriores, ya sea con una tarea que aún no hayas terminado o con una nueva.
+
+A medida que avances con las tareas, y vayas terminando, te daras cuenta que lo que pensabas que te demorarias horas y horas, lo terminas en 25 o 50 minutos (incluso menos, dependiendo de la tarea). Ademas podras ver que te queda tiempo para hacer otras actividades, y aún mejor, con una sensación de logro despues de finalizar las tareas en un tiempo que nunca imaginaste que podrias cumplír.
+
+Cuando ya lleves un tiempo aplicando la técnica de Pomodoro, podras ver que ya has generado métricas de tiempo en tu historial de tareas terminadas:
+
+<img alt="Metrica Tiempo" src="/content/images/2016/02/timeMetric.jpg" width="400" height="500"/>
+
+Esto quiere decir que cuando vayas a hacer una tarea parecida o igual a otra que ya has terminado, vas a saber cuanto tiempo puedes demorar en completar esa tarea y así administrar mejor tu tiempo.
+
+La técnica Pomodoro te permite "distraerte", pero en el momento adecuado y durante un periodo de tiempo reducido. No se trata de sentarte y comenzar a trabajar sin parar, si no más bien generar un equilibrio entre distracción y atención, de tal manera de lograr tus objetivos de una forma entretenida :)
+
+**Referencias y Lecturas Recomendadas.**
+
+[1] Cirillo, Francesco "The Pomodoro Technique" ISBN-10: 1445219948
+
+[2] http://lifehacker.com/5377906/the-pomodoro-technique-fights-deadline-anxiety-with-a-timer
