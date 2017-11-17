@@ -3997,8 +3997,8 @@ cite {
           border-radius: 50%;
   position: relative;
   float: left;
-  width: 32.333%;
-  margin: 0 0.5% 1% 0.5%;
+  width: 25%;
+  margin: 0 0.5% 3% 6%;
   overflow: hidden;
   -webkit-transition: -webkit-transform 0.4s;
   transition: -webkit-transform 0.4s;
