@@ -14,7 +14,7 @@ Hoy en día existen multiples formas de distraernos cuando tenemos tareas o comp
 
 <div class="img_post_container">
 <img class="img_post" src="https://imgur.com/8eaVMDJ.jpg" alt="Redes Sociales">
-<div>
+</div>
 
 Entonces, ¿cómo evito distraerme en la era de las distracciones? ¡estamos llenos de estímulos!. Bueno, ¡fácil!, cuando trabajes en una tarea, comienza con lo principal:
 
@@ -31,19 +31,19 @@ Es aquí donde la técnica Pomodoro (creada por Francesco Cirillo) entra en jueg
 
 <div class="img_post_container">
 <img class="img_post" src="https://imgur.com/qA15rHC.jpg" alt="Kanban 3">
-<div>
+</div>
 
 **2)** Ajusta un temporizador (Pomodoro) a 25 minutos.
 
 <div class="img_post_container">
 <img class="img_post" src="https://imgur.com/rJjJV7d.jpg" alt="Temporizador">
-<div>
+</div>
 
 **3)** Trabaja en la tarea hasta que suene el Pomodoro o termines la tarea. A continuación, tomar nota del tiempo empleado en el avance o finalización de la tarea.
 
 <div class="img_post_container">
 <img class="img_post" src="https://imgur.com/gYR41rF.jpg" alt="Registro Tiempo">
-<div>
+</div>
 
 **4)** Tomar un breve descanso (5 minutos está bien). Has lo que quieras: ve tu celular, el whatsap, el computador, acuestate, date unas vueltas, camina, etc.
 
@@ -57,7 +57,7 @@ Cuando ya lleves un tiempo aplicando la técnica de Pomodoro, podras ver que ya 
 
 <div class="img_post_container">
 <img class="img_post" src="https://imgur.com/6KuLgin.jpg" alt="Registro Tiempo">
-<div>
+</div>
 
 Esto quiere decir que cuando vayas a hacer una tarea parecida o igual a otra que ya has terminado, vas a saber cuanto tiempo puedes demorar en completar esa tarea y así administrar mejor tu tiempo.
 

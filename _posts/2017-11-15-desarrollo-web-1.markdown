@@ -18,7 +18,7 @@ El back-end es la parte de la aplicación web en donde se procesan los datos. Al
 
 <div class="img_post_container">
 <img class="img_post" src="https://imgur.com/RellhAf.png" alt="Back-end">
-<div>
+</div>
 
 ## Front-end.
 
@@ -30,7 +30,7 @@ El front-end es la parte de la aplicación web en donde se presentan los datos. 
 
 <div class="img_post_container">
 <img class="img_post" src="https://imgur.com/ieLTfIs.jpg" alt="Front-end">
-<div>
+</div>
 
 ## Diseño Web.
 
@@ -43,7 +43,7 @@ Esta área comprende todo lo que tenga que ver con el diseño grafico de la web.
 
 <div class="img_post_container">
 <img class="img_post" src="https://imgur.com/AP7bh6F.jpg" alt="Diseño Web">
-<div>
+</div>
 
 ## Experiencia de Usuario (UX).
 
@@ -51,7 +51,7 @@ Las personas que trabajan en esta área se dedican a entender el flujo de intera
 
 <div class="img_post_container">
 <img class="img_post" src="https://imgur.com/OjxyAII.jpg" alt="UX">
-<div>
+</div>
 
 ## Arquitectura de Información y SEO.
 
@@ -59,7 +59,7 @@ Los arquitectos de información y los SEO (Search Engine Optimization) se encarg
 
 <div class="img_post_container">
 <img class="img_post" src="https://imgur.com/4MyvsoJ.jpg" alt="SEO">
-<div>
+</div>
 
 ## Otras Áreas.
 

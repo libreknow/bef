@@ -12,7 +12,7 @@ Kanban es un método que se basa en limitar el trabajo en curso (Work In Progres
 
 <div class="img_post_container">
 <img class="img_post" src="https://imgur.com/Jd2v6S7.jpg" alt="Tarjeta Visual">
-<div>
+</div>
 
 El método Kanban, desarrollado por David J. Anderson, es un método de trabajo enfocado en el cambio y en la mejora personal, de los equipos y/o organizaciones. Es un camino para comenzar a visualizar el trabajo del día a día, identificar y eliminar los cuellos de botella que conllevan estos trabajos, y poco a poco, paso a paso, lograr grandes mejoras en términos de rendimiento y calidad del trabajo desarrollado.
 
@@ -24,7 +24,7 @@ Kanban utiliza el control visual para hacer seguimiento de las tareas a medida q
 
 <div class="img_post_container">
 <img class="img_post" src="https://imgur.com/ZGTQKsN.png" alt="Tableros Kanban de Distintos Proyectos">
-<div>
+</div>
 
 Kanban promueve la evolución incremental del flujo existente, un cambio gradual que surge del entendimiento y de la adaptación al cambio.
 
@@ -34,31 +34,31 @@ Bueno, basta de teoría, ¿Cómo nos iniciamos en Kanban?, la mejor manera es em
 
 <div class="img_post_container">
 <img class="img_post" src="https://imgur.com/sQn8UGs.jpg" alt="Kanban 1">
-<div>
+</div>
 
 2) Hacer un listado de tareas pendientes utilizando post-its, en donde en cada uno de ellos se escribirá la tarea a realizar.
 
 <div class="img_post_container">
 <img class="img_post" src="https://imgur.com/qg4j7wd.jpg" alt="Kanban Pendientes">
-<div>
+</div>
 
 3) De la lista de tareas pendientes, elegir las 3 más urgentes y agregarlas a la columna “Por Hacer”. La ventaja de iniciar hasta con 3 tareas “Por Hacer” es que no sobrecargamos la columna y se pueden observan los avances claramente, al contrario de tener cientos de post-its moviendose de un lado a otro, en donde la vista puede no ser muy agradable.
 
 <div class="img_post_container">
 <img class="img_post" src="https://imgur.com/HYwycZY.jpg" alt="Kanban 2">
-<div>
+</div>
 
 4) En la columna “Haciendo” colocar las tareas que se empezarán. Al igual que en la columna anterior, es recomendable limitar la cantidad de tareas a tener de 1 a 2, para no perder el foco y dispersarse en trabajo de paralelo de muchas tareas que nunca terminas. Uno de los principios claves de Kanban es “deja de comenzar, comienza a terminar”. A medida que veas que tu trabajo paralelo mejora, o si requieres trabajar en mas tareas al mismo tiempo (y si te la puedes), puedes aumentar el WIP de esta columna.
 
 <div class="img_post_container">
 <img class="img_post" src="https://imgur.com/qA15rHC.jpg" alt="Kanban 3">
-<div>
+</div>
 
 5) Por último, en la columna “Hecho”, colocar todas las tareas terminadas. El objetivo de esta columna es visualizar el logro y mantener la motivación :D.
 
 <div class="img_post_container">
 <img class="img_post" src="https://imgur.com/08BJlFs.jpg" alt="Kanban 4">
-<div>
+</div>
 
 Hace ya 5 años que utilizo Kanban para administrar mis proyectos, los de mi trabajo, y actividades de todo tipo, y lo que mas me ha llamado la atención de este método es su aspecto motivador a través de la visualización de los logros y de la capacidad de uno mismo para terminar las tareas. Uno puede pensar que no lo va a lograr, no va a lograr terminar todo ese montón de tareas a tiempo, pero si uno lista las tareas pendientes o hace un mapa mental para visualizar de mejor manera una idea o proyecto, y finalmente se hace un plan de trabajo utilizando un método como Kanban, te impresionaras de lo que eres capaz de llegar a hacer :)
 

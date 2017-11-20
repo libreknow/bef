@@ -11,7 +11,7 @@ Un mapa mental es una forma de organizar conceptos e ideas a partir de un texto,
 <div class="img_post_container">
 <img class="img_post" src="https://imgur.com/aJGPFaZ.png" alt="Ejemplo Mapa Mental Proyectos">
 Figura 1: Ejemplo de Mapa Mental de Proyectos.
-<div>
+</div>
 
 A partir de este mapa mental se puede comenzar a priorizar, planificar y listar tareas a hacer por cada proyecto. Para esto último se puede hacer uso de tableros visuales (recomiendo Kanban, en el próximo artículo hablare de ello :)), para así administrar y mejorar el avance de cada proyecto, y/o se pueden seguir utilizando mapas mentales para gestionar el tiempo en cada proyecto.
 
@@ -22,7 +22,7 @@ El mapa mental de la Figura 1 no representa la potencialidad verdadera de los ma
 <div class="img_post_container">
 <img class="img_post" src="https://imgur.com/wLjbSND.jpg" alt="Ejemplo de Mapa Mental Tiempos">
 Figura 2: Ejemplo de Mapa Mental de Gestión de Tiempo.
-<div>
+</div>
 
 El color refuerza las asociaciones, estimula la creatividad y hace que el mapa sea más divertido. Las imagenes estimulan la imaginación y mejoran la memoria, el cerebro recuerda más facilmente las imagenes que las palabras. Pueden ser dibujos, fotos o símbolos que representen el pensamiento clave en esa rama [1].
 
@@ -33,7 +33,7 @@ Otro ejemplo de uso: "tengo que estudiar un gran artículo, el cual tiene muchos
 <div class="img_post_container">
 <img class="img_post" src="https://imgur.com/3eF0YNB.jpg" alt="Ejemplo Mapa Mental Era de la Distracción">
 Figura 3: Ejemplo de Mapa Mental del Artículo "Concentrarse en la Era de la Distracción".
-<div>
+</div>
 
 Los mapas mentales son una herramienta práctica que facilitan el entendimiento, el aprendizaje, la organización y el orden, estimulando el potencial creativo único de cada persona.
 
