@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Kanban: Primeros Pasos"
+title: "Kanban"
 img: Kanban4.jpg # Add image post (optional)
 date: 2017-11-10 21:00:00 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-tag: [Kanban, Visual Thinking, Agil]
+tag: [Kanban, Pensamiento Visual, Agil]
 ---
 En el artículo anterior hable de los mapas mentales y de como esta herramienta puede ayudar a ordenar mejor tus ideas o proyectos a través de una imagen. A partir de esto, mencione Kanban como una herramienta visual para administrar y mejorar el avance de cada una de estas ideas o proyectos.
 

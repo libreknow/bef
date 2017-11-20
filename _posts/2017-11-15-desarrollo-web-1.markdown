@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Conceptos Básicos del Desarrollo Web"
+title: "Conceptos Básicos Desarrollo Web"
 img: desarrollo_web.jpg # Add image post (optional)
 date: 2017-11-10 21:00:00 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
