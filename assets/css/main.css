@@ -4267,6 +4267,16 @@ cite {
   margin: 7rem auto 7rem;
 }
 
+.img_post_container {
+  text-align: center;
+  font-weight: bold;
+}
+
+.img_post_container .img_post {
+  width: 100%;
+  height: auto;
+}
+
 .post {
   background-color: #ffffff;
   margin-bottom: 1.5rem;
@@ -4310,6 +4320,7 @@ cite {
 
 .post .entry_content {
   padding-bottom: 2rem;
+  text-align: justify;
 }
 
 .post_footer {

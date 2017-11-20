@@ -7,23 +7,33 @@ description: You’ll find this post in your `_posts` directory. Go ahead and ed
 tag: [Desarrollo]
 ---
 En el desarrollo web existen diversas áreas y conceptos fundamentales a tener cuenta antes de comenzar un nuevo proyecto web. A continuación se explican algunos de estas áreas y conceptos.
-##Back-end.
+
+## Back-end.
+
 El back-end es la parte de la aplicación web en donde se procesan los datos. Algunas características que incluye:
 
 * Acceso a Bases de Datos (MySQL, PostgreSQL, MongoDB, etc).
 * Conexión entre el código (Ruby, Python, Javascript, Java, etc) y las Bases de Datos.
 * Procesamiento y envío de datos en diversos formatos (HTML, XML, RSS, JSON) hacia la capa de presentación de los datos (Front-end).
 
-![](/content/images/2016/03/backend.png)
+<div class="img_post_container">
+<img class="img_post" src="https://imgur.com/RellhAf.png" alt="Back-end">
+<div>
+
 ## Front-end.
+
 El front-end es la parte de la aplicación web en donde se presentan los datos. Incluye:
 
 * Maquetación de la estructura semántica del contenido (HTML).
 * Codificación del diseño en hojas de estilo (CSS).
 * Agregación de interacciones con el usuario (Javascript).
 
-![](/content/images/2016/03/front-end.jpg)
+<div class="img_post_container">
+<img class="img_post" src="https://imgur.com/ieLTfIs.jpg" alt="Front-end">
+<div>
+
 ## Diseño Web.
+
 Esta área comprende todo lo que tenga que ver con el diseño grafico de la web. Algunas características que incluye:
 
 * Vistas de la web que vera el usuario.
@@ -31,16 +41,28 @@ Esta área comprende todo lo que tenga que ver con el diseño grafico de la web.
 * Animaciones y transiciones.
 * Cajas de texto, botones, radio buttons, checkbox, desplegables.
 
-![](/content/images/2016/03/ilustrator.jpg)
+<div class="img_post_container">
+<img class="img_post" src="https://imgur.com/AP7bh6F.jpg" alt="Diseño Web">
+<div>
+
 ## Experiencia de Usuario (UX).
+
 Las personas que trabajan en esta área se dedican a entender el flujo de interactividad con el usuario, es decir, el camino que realmente toman los usuarios a la hora de utilizar la aplicación web que necesitan. Se encargan de simplificar al máximo estos caminos de tal manera que el usuario se sienta cómodo utilizando esa aplicación web.
 
-![](/content/images/2016/03/UX.jpg)
+<div class="img_post_container">
+<img class="img_post" src="https://imgur.com/OjxyAII.jpg" alt="UX">
+<div>
+
 ## Arquitectura de Información y SEO.
+
 Los arquitectos de información y los SEO (Search Engine Optimization) se encargan de definir la organización del contenido, la distribución del mismo, y además defines como se entregará este contenido a los usuarios para que puedan descubrir lo nuevo y lo más relevante para ellos dentro de la web.
 
-![](/content/images/2016/03/SEO.jpg)
-##Otras Áreas.
+<div class="img_post_container">
+<img class="img_post" src="https://imgur.com/4MyvsoJ.jpg" alt="SEO">
+<div>
+
+## Otras Áreas.
+
 * Control de Calidad (QA).
 * Administración de Bases de Datos.
 * Administración de Servidores.
@@ -48,6 +70,7 @@ Los arquitectos de información y los SEO (Search Engine Optimization) se encarg
 * Seguimiento Financiero.
 * Ventas.
 * Otras, dependiendo del rubro.
+
 ## Referencias y Lecturas Recomendadas.
 
 [1] https://platzi.com/clases/programacion-basica/

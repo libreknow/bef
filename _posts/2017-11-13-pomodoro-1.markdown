@@ -12,7 +12,9 @@ Hoy en día existen multiples formas de distraernos cuando tenemos tareas o comp
 
 *... comenzamos a trabajar en una tarea.... '¡tintuntun!' ... mensaje de Whatsapp... volvemos a trabajar... '¡dunin!' ... mensaje de Facebook ... no volvemos a trabajar, nos quedamos ejercitando el dedo  en el muro de Facebook... volvemos a trabajar... finalmente, lo que podriamos haber hecho en 15 minutos lo hacemos en 1 hora...*
 
-<img alt="Redes Sociales" src="/content/images/2016/02/redesSociales.jpg" width="400" height="300"/>
+<div class="img_post_container">
+<img class="img_post" src="https://imgur.com/8eaVMDJ.jpg" alt="Redes Sociales">
+<div>
 
 Entonces, ¿cómo evito distraerme en la era de las distracciones? ¡estamos llenos de estímulos!. Bueno, ¡fácil!, cuando trabajes en una tarea, comienza con lo principal:
 
@@ -27,15 +29,21 @@ Es aquí donde la técnica Pomodoro (creada por Francesco Cirillo) entra en jueg
 
 **1)** Elije una tarea a realizar.
 
-<img alt="Seleccion de Tarea" src="/content/images/2016/02/Kanban3.jpg" width="400" height="400"/>
+<div class="img_post_container">
+<img class="img_post" src="https://imgur.com/qA15rHC.jpg" alt="Kanban 3">
+<div>
 
 **2)** Ajusta un temporizador (Pomodoro) a 25 minutos.
 
-<img alt="Pomodoro Timer" src="/content/images/2016/02/pomodoroTimer.jpg" width="400" height="500"/>
+<div class="img_post_container">
+<img class="img_post" src="https://imgur.com/rJjJV7d.jpg" alt="Temporizador">
+<div>
 
 **3)** Trabaja en la tarea hasta que suene el Pomodoro o termines la tarea. A continuación, tomar nota del tiempo empleado en el avance o finalización de la tarea.
 
-<img alt="Escribir Tiempo" src="/content/images/2016/02/writeTime.jpg" width="400" height="500"/>
+<div class="img_post_container">
+<img class="img_post" src="https://imgur.com/gYR41rF.jpg" alt="Registro Tiempo">
+<div>
 
 **4)** Tomar un breve descanso (5 minutos está bien). Has lo que quieras: ve tu celular, el whatsap, el computador, acuestate, date unas vueltas, camina, etc.
 
@@ -47,7 +55,9 @@ A medida que avances con las tareas, y vayas terminando, te daras cuenta que lo 
 
 Cuando ya lleves un tiempo aplicando la técnica de Pomodoro, podras ver que ya has generado métricas de tiempo en tu historial de tareas terminadas:
 
-<img alt="Metrica Tiempo" src="/content/images/2016/02/timeMetric.jpg" width="400" height="500"/>
+<div class="img_post_container">
+<img class="img_post" src="https://imgur.com/6KuLgin.jpg" alt="Registro Tiempo">
+<div>
 
 Esto quiere decir que cuando vayas a hacer una tarea parecida o igual a otra que ya has terminado, vas a saber cuanto tiempo puedes demorar en completar esa tarea y así administrar mejor tu tiempo.
 
