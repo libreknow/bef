@@ -4663,7 +4663,7 @@ cite {
   padding: 1rem;
   background-color: rgba(255, 255, 255, 0.4);
   color: #ffffff;
-  font-weight: 300;
+  font-weight: bold;
   -webkit-transition: all .35s ease-in-out;
   transition: all .35s ease-in-out;
 }

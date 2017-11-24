@@ -1,0 +1,72 @@
+---
+layout: post
+title: "GIT (I): Introducción"
+img: git1.jpg # Add image post (optional)
+date: 2017-11-20 20:00:00 +0300
+description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+tag: [Control de Versiones, GIT]
+---
+A la hora de comenzar un proyecto de desarrollo de software se hace necesario contar con un control de las diferentes versiones que se generen del sistema. Comunmente se puede ver el clásico "cambio de nombre por versión":
+
+sistema_x_V1 sistema_x_V1.1
+sistema_x_V2
+sistema_x_Final
+sistema_x_FINAL_FINAL
+
+Un sistema de control versiones (SCV) es más que esto. Un SCV permite:
+
+* Registrar y guardar cada modificación del proyecto en un registro.
+* Vigilar todo lo que se modifica.
+* Dar acceso a un registro específico para así gestionarlo, compartirlo, colaborarlo, editarlo, etc.
+* Moverse hacia atras o hacia adelante en diferentes momentos del proyecto (Ver Figura 1).
+
+<div class="img_post_container">
+<img class="img_post" src="https://imgur.com/aeFHReq.png" alt="SCV">
+Figura 1: SCV.
+</div>
+
+GIT es el SCV y software (así como Mercurial, SVN, y otros) que hace el rastreo, está pendiente de todo lo que haces, y que te permite ir guardando tu proyecto cuando quieras.
+
+GIT es un SCV distribuido, es decir, las copias o clones que se hagan del proyecto principal son independientes (Figura 2).
+
+<div class="img_post_container">
+<img class="img_post" src="https://imgur.com/fujKCOw.png" alt="SCV Distribuido">
+Figura 2: SCV Distribuido.
+</div>
+
+En la Figura 2 se puede ver el proyecto principal almacenado en un repositorio GitHub y dos copias de la primera versión del proyecto (C1) por parte de dos usuarios. El primer usuario ha hecho dos cambios a C1 (Cx y luego Cy), y el segundo usuario solo un cambio (Cn). Como pueden ver, cada usuario trabaja independiente en su propio proyecto a partir de la copia del proyecto principal.
+
+A continuación pasaremos a la instalación y configuración básica de GIT.
+
+## Instalación y Configuración de GIT
+
+A continuación describiré los pasos a seguir para instalar GIT en Linux Mint 17 o Ubuntu 14.04:
+
+(0) Abrir una terminal.
+
+(i) Instalar GIT:
+
+~ $ sudo apt-get install git
+
+(ii) Agregar el nombre de usuario:
+
+~ $ git config --global user.name "nombreUsuario"
+
+(iii) Agregar el email de usuario ingresado:
+
+~ $ git config --global user.email "emailUsuario"
+
+(iv) Hacer que GIT entregue su información en consola mediante colores:
+
+~ $ git config --global color.ui
+
+(v) Revisar la configuración ingresada (Figura 2):
+
+~ $ git config --global --list
+user.name=nombreUsuario
+user.email=emailUsuario
+color.ui=true
+
+Con estos simples pasos ya tenemos GIT instalado, configurado y listo para comenzar a usarse con nuestros proyectos de software.
+
+En el próximo artículo hablare de como comenzar a utilizar GIT, de la arquitectura de arbol y de algunos comandos básicos.

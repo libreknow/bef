@@ -1,0 +1,57 @@
+---
+layout: post
+title: "GIT (II): Inicio y Arquitectura"
+img: git1.jpg # Add image post (optional)
+date: 2017-11-22 21:00:00 +0300
+description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+tag: [Control de Versiones, GIT]
+---
+Una vez que GIT está instalado y configurado, se puede comenzar a utilizar GIT para gestionar un proyecto. Para ello es necesario inicializar GIT (desde una terminal) dentro de la carpeta del proyecto:
+
+ ~ $ git init
+
+Este comando le dice GIT que comience a rastrear los archivos de la carpeta del proyecto. Luego si escribimos:
+
+ ~ $ git status
+
+Podremos ver algo como esto:
+
+<div class="img_post_container">
+<img class="img_post" src="https://imgur.com/6Lr7pGk.png" alt="Resultado GIT Status">
+Figura 1: Resultado git status.
+</div>
+
+En la Figura 1 se muestran los comandos ingresados anteriormente y sus respectivos resultados. El segundo comando muestra el estado de los archivos del proyecto, es decir, cuales son los archivos que han cambiado desde el último cambio (en este caso, todos los archivos, ya que se inicio el proyecto y no se ha hecho ningun cambio).
+
+Con esto se comprueba que GIT ya está inicializado registrando todo lo que pasa en nuestro proyecto.
+
+Arquitectura de Arbol.
+
+La forma de iteración básica en GIT es a traves de una arquitectura de arbol de 3 niveles. Estos niveles o áreas se describen a continuación:
+
+* Working Area: donde se edita y trabaja en el proyecto, y luego se decide que archivos o cambios se subiran a la nueva versión.
+* Stagging Area: donde se suben los cambios al repositorio.
+* Repository Area: donde se almacenan los registros o commits de todo el proyecto.
+
+Un ejemplo de como funciona esta arquitectura: en el "Working Area" tenemos un nuevo cambio o versión de nuestro proyecto para guardar en el repositorio. Seleccionamos los cambios a incluir en la nueva versión:
+
+~ $ git add -A
+
+A traves de este comando incluimos todos los cambios que se han hecho en la nueva versión. Luego en la "Stagging Area" subimos los cambios al repositorio local:
+
+~ $ git commit -m "comentario del nuevo cambio"
+
+Finalmente podemos revisar el "Repository Area" y ver los commits que hemos realizado con:
+
+~ $ git log
+
+El ejemplo anterior se puede ver ilustrado en la Figura 2, desde el primer nivel hasta el último, con diferentes commits.
+
+<div class="img_post_container">
+<img class="img_post" src="https://imgur.com/Gj3YfDK.png" alt="Arquitectura de Arbol">
+Figura 2: Arquitectura de Arbol.
+</div>
+
+Referencias y Enlaces Recomendados.
+
+[1] https://platzi.com/cursos/git-github/
