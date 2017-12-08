@@ -11,23 +11,23 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Banner settings
 video: Perfect_Hour.mp4 # mountains.mp4 # add banner video. Add your video file to the folder video
 banner-title: Libre Know # add banner title
-banner-desc: Saber Libre # add banner description
+banner-desc: # add banner description
 
 # Author settings
-author-pic:  # your photo
+author-pic: yoMachu.jpeg # your photo
 author-name: Pablo Arak # your name
-about-author: # about author
+about-author: Me gusta el desarrollo web, el cine, el anime, los mangas, salir a trotar, hacer trekking, viajar, biodanzar, escuchar musica variada, tocar piano... Una de mis pasiones (de muchas) hoy en día es la Cocina Natural, disfruto mucho cocinarme, cocinar a otr@s y probar otras recetas de este tipo de cocina. Me encanta organizar y participar en cenas u otro tipo de eventos con amig@s.  # about author
 email: pablo.arak.vm@gmail.com # your email
 phone:  # your pnone number
-website: https://libreknow.org # you website
+website: http://libreknow.org # you website
 
 # Social link
-github_url: # add url link
-linkedin_url: # add url link
+github_url: https://github.com/pabloarak # add url link
+linkedin_url: https://www.linkedin.com/in/pbarak # add url link
 instagram_url: # add url link
 
 # Disqus
-discus_identifier: # add your discus identifier
+discus_identifier: pabloarak # add your discus identifier
 
 # Newsletter
 mailchimp: # add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e

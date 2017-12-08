@@ -3952,7 +3952,7 @@ cite {
 }
 
 .main_header .logo span {
-  color: #c0334a;
+  color: green;
   font-weight: 400;
 }
 
@@ -4104,7 +4104,7 @@ cite {
   font-size: 0.9rem;
   text-align: center;
   text-transform: uppercase;
-  background-color: #c0334a;
+  background-color: green;
   cursor: pointer;
   -webkit-border-radius: 2.5rem;
           border-radius: 2.5rem;
@@ -4118,11 +4118,11 @@ cite {
 }
 
 .newsletter form .subscribe_btn:hover {
-  background-color: rgba(192, 51, 74, 0.75);
+  background-color: rgba(0, 128, 0, 0.75);
 }
 
 .newsletter form .subscribe_btn:active {
-  background-color: rgba(192, 51, 74, 0.5);
+  background-color: rgba(0, 128, 0, 0.5);
 }
 
 .pagination {
@@ -4182,7 +4182,7 @@ cite {
 
 .top:hover {
   color: #ffffff;
-  background-color: #c0334a;
+  background-color: green;
   opacity: .8;
 }
 
@@ -4228,7 +4228,7 @@ cite {
 }
 
 .social_footer a:hover {
-  background-color: #c0334a;
+  background-color: green;
   color: #ffffff;
 }
 
@@ -4246,13 +4246,13 @@ cite {
 
 .copyright a {
   text-decoration: none;
-  color: #c0334a;
+  color: green;
   -webkit-transition: all .35s ease-in-out;
   transition: all .35s ease-in-out;
 }
 
 .copyright a:hover {
-  color: rgba(192, 51, 74, 0.75);
+  color: rgba(0, 128, 0, 0.75);
 }
 
 .post_wrapper, .entry_content {
@@ -4307,14 +4307,14 @@ cite {
   font-size: 1.1rem;
   margin: 0;
   color: #ffffff;
-  background-color: rgba(210, 84, 105, 0.4);
+  background-color: rgba(0, 128, 0, 0.4);
 }
 
 .post header .post_title {
   padding: 1rem;
   font-size: 2rem;
   margin: 0;
-  background-color: rgba(192, 51, 74, 0.4);
+  background-color: rgba(0, 128, 0, 0.4);
   color: #ffffff;
 }
 
@@ -4348,7 +4348,7 @@ cite {
 }
 
 .post_footer a:hover {
-  background-color: #d25469;
+  background-color: green;
   color: #ffffff;
 }
 
@@ -4500,18 +4500,18 @@ cite {
 #tags .tags li {
   float: left;
   margin: 0 0.5rem 0.5rem 0;
-  border: 1px solid #c0334a;
+  border: 1px solid green;
   -webkit-border-radius: 0.5rem;
           border-radius: 0.5rem;
-  background-color: #d25469;
-  -webkit-box-shadow: 0 2px 0 #c0334a;
-          box-shadow: 0 2px 0 #c0334a;
+  background-color: green;
+  -webkit-box-shadow: 0 2px 0 green;
+          box-shadow: 0 2px 0 green;
   -webkit-transition: all .35s;
   transition: all .35s;
 }
 
 #tags .tags li:hover {
-  background-color: rgba(192, 51, 74, 0.75);
+  background-color: rgba(0, 128, 0, 0.75);
 }
 
 #tags .tags a {
@@ -4528,11 +4528,11 @@ cite {
 }
 
 #tags .tag_list a {
-  color: #c0334a;
+  color: green;
 }
 
 #tags .tag_list a:hover {
-  color: rgba(192, 51, 74, 0.75);
+  color: rgba(0, 128, 0, 0.75);
 }
 
 #tags .back_to_home {
@@ -4579,6 +4579,7 @@ cite {
   -webkit-border-radius: 0.5rem;
           border-radius: 0.5rem;
   margin-bottom: 1rem;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .about .author .author_image {
@@ -4611,7 +4612,7 @@ cite {
 }
 
 .about .about_social .social_footer a:hover {
-  color: #c0334a;
+  color: green;
 }
 
 .contact {
@@ -4638,6 +4639,7 @@ cite {
 }
 
 .container_contact .form_title {
+  text-shadow: 1px 1px 1px #000;
   text-align: center;
   text-transform: uppercase;
   font-size: 1.2rem;
@@ -4662,6 +4664,7 @@ cite {
   width: 100%;
   padding: 1rem;
   background-color: rgba(255, 255, 255, 0.4);
+  text-shadow: 1px 1px 1px #000;
   color: #ffffff;
   font-weight: bold;
   -webkit-transition: all .35s ease-in-out;
@@ -4669,7 +4672,7 @@ cite {
 }
 
 .container_contact .form input:focus, .container_contact .form textarea:focus {
-  background-color: rgba(191, 127, 127, 0.6);
+  background-color: rgba(43, 213, 27, 0.4);
 }
 
 .container_contact .form .form_btn {

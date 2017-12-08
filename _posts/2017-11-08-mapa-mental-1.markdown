@@ -12,7 +12,7 @@ Un mapa mental es una forma de organizar conceptos e ideas a partir de un texto,
 <img class="img_post" src="https://imgur.com/aJGPFaZ.png" alt="Ejemplo Mapa Mental Proyectos">
 Figura 1: Ejemplo de Mapa Mental de Proyectos.
 </div>
-
+<br/>
 A partir de este mapa mental se puede comenzar a priorizar, planificar y listar tareas a hacer por cada proyecto. Para esto último se puede hacer uso de tableros visuales (recomiendo Kanban, en el próximo artículo hablare de ello :)), para así administrar y mejorar el avance de cada proyecto, y/o se pueden seguir utilizando mapas mentales para gestionar el tiempo en cada proyecto.
 
 ## Desarrollo.
@@ -23,7 +23,7 @@ El mapa mental de la Figura 1 no representa la potencialidad verdadera de los ma
 <img class="img_post" src="https://imgur.com/wLjbSND.jpg" alt="Ejemplo de Mapa Mental Tiempos">
 Figura 2: Ejemplo de Mapa Mental de Gestión de Tiempo.
 </div>
-
+<br/>
 El color refuerza las asociaciones, estimula la creatividad y hace que el mapa sea más divertido. Las imagenes estimulan la imaginación y mejoran la memoria, el cerebro recuerda más facilmente las imagenes que las palabras. Pueden ser dibujos, fotos o símbolos que representen el pensamiento clave en esa rama [1].
 
 Normalmente, cuando uno toma notas, lo hace de manera lineal: un pensamiento a continuación del otro. En cambio, con los mapas mentales, la información se ordena a partir de un tema central del cual crecen diversas lineas curvas o ramas que contienen ideas relacionadas [1].
@@ -34,9 +34,9 @@ Otro ejemplo de uso: "tengo que estudiar un gran artículo, el cual tiene muchos
 <img class="img_post" src="https://imgur.com/3eF0YNB.jpg" alt="Ejemplo Mapa Mental Era de la Distracción">
 Figura 3: Ejemplo de Mapa Mental del Artículo "Concentrarse en la Era de la Distracción".
 </div>
-
+<br/>
 Los mapas mentales son una herramienta práctica que facilitan el entendimiento, el aprendizaje, la organización y el orden, estimulando el potencial creativo único de cada persona.
 
-Referencias y Lecturas Recomendadas.
+## Referencias y Lecturas Recomendadas.
 
-[1] http://mapamental.net/
+**[1]** [http://mapamental.net/](http://mapamental.net/)

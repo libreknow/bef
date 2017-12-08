@@ -15,12 +15,15 @@ Hoy en día existen multiples formas de distraernos cuando tenemos tareas o comp
 <div class="img_post_container">
 <img class="img_post" src="https://imgur.com/8eaVMDJ.jpg" alt="Redes Sociales">
 </div>
-
+<br/>
 Entonces, ¿cómo evito distraerme en la era de las distracciones? ¡estamos llenos de estímulos!. Bueno, ¡fácil!, cuando trabajes en una tarea, comienza con lo principal:
 
 * desconectar tu celular de Internet,
+
 * en tu computador, cerrar todo lo que no necesites para concretar tu tarea,
+
 * apagar la música (a no ser que sea música adhoc al trabajo que haces, y que en verdad no te distraiga),
+
 * y concentrar toda tu atención en la tarea que tienes que realizar aquí y ahora.
 
 Parece fácil, pero no lo es. No sabes cuanto tiempo demorarás en terminar la tarea, y además, quieres hacer otra cosa (ver el whatsapp, el facebook, etc) pero debes tratar de mantener la atención unidireccional. Al final, la ansiedad termina por superarte y vuelves a distraerte.
@@ -32,19 +35,19 @@ Es aquí donde la técnica Pomodoro (creada por Francesco Cirillo) entra en jueg
 <div class="img_post_container">
 <img class="img_post" src="https://imgur.com/qA15rHC.jpg" alt="Kanban 3">
 </div>
-
+<br/>
 **2)** Ajusta un temporizador (Pomodoro) a 25 minutos.
 
 <div class="img_post_container">
 <img class="img_post" src="https://imgur.com/rJjJV7d.jpg" alt="Temporizador">
 </div>
-
+<br/>
 **3)** Trabaja en la tarea hasta que suene el Pomodoro o termines la tarea. A continuación, tomar nota del tiempo empleado en el avance o finalización de la tarea.
 
 <div class="img_post_container">
 <img class="img_post" src="https://imgur.com/gYR41rF.jpg" alt="Registro Tiempo">
 </div>
-
+<br/>
 **4)** Tomar un breve descanso (5 minutos está bien). Has lo que quieras: ve tu celular, el whatsap, el computador, acuestate, date unas vueltas, camina, etc.
 
 **5)** Cada 4 Pomodoros, tomar un descanso largo (recomendable de 15 a 30 minutos).
@@ -58,13 +61,13 @@ Cuando ya lleves un tiempo aplicando la técnica de Pomodoro, podras ver que ya 
 <div class="img_post_container">
 <img class="img_post" src="https://imgur.com/6KuLgin.jpg" alt="Registro Tiempo">
 </div>
-
+<br/>
 Esto quiere decir que cuando vayas a hacer una tarea parecida o igual a otra que ya has terminado, vas a saber cuanto tiempo puedes demorar en completar esa tarea y así administrar mejor tu tiempo.
 
 La técnica Pomodoro te permite "distraerte", pero en el momento adecuado y durante un periodo de tiempo reducido. No se trata de sentarte y comenzar a trabajar sin parar, si no más bien generar un equilibrio entre distracción y atención, de tal manera de lograr tus objetivos de una forma entretenida :)
 
 **Referencias y Lecturas Recomendadas.**
 
-[1] Cirillo, Francesco "The Pomodoro Technique" ISBN-10: 1445219948
+**[1]** Cirillo, Francesco "The Pomodoro Technique" ISBN-10: 1445219948
 
-[2] http://lifehacker.com/5377906/the-pomodoro-technique-fights-deadline-anxiety-with-a-timer
+**[2]** [http://lifehacker.com/5377906/the-pomodoro-technique-fights-deadline-anxiety-with-a-timer](http://lifehacker.com/5377906/the-pomodoro-technique-fights-deadline-anxiety-with-a-timer)
