@@ -1,0 +1,68 @@
+---
+layout: post
+title: "GIT (III): Commits y Reset"
+img: reset.png # Add image post (optional)
+date: 2017-11-22 21:00:00 +0300
+description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+tag: [Control de Versiones, GIT]
+---
+Una vez entendida y prácticada la arquitectura de trabajo de GIT, lo siguiente es comenzar a comprender el contenido de los commits, para así empezar a facilitar la colaboración en el proyecto versionado por GIT.
+
+## Commits.
+
+Cuando trabajamos en un proyecto utilizando GIT, podemos ver el historial de commits detallado usando:
+```bash
+git log --decorate
+```
+<br/>
+Este comando nos mostrará un historial como el de la Figura 1.
+
+<div class="img_post_container">
+<img class="img_post" src="https://imgur.com/oxIAc3b.png" alt="Historial de Commits">
+Figura 1: Historial de Commits.
+</div>
+<br/>
+En el historial de la Figura 1 se pueden ver dos commits, en donde cada uno se describe y se diferencia a traves de 5 características:
+
+* **Commit ID (SHA):** ID único del commit generado a traves del algoritmo SHA-1.
+
+* **HEAD:** puntero HEAD que indica en que commit estamos ubicados actualmente.
+
+* **Author:** nombre y correo del usuario que realizó el commit.
+
+* **Date:** fecha en que se realizo el commit.
+
+* **Comentario:** descripción del commit realizado (ej: Agregamos xyz).
+
+Algunas de estas características (autor, fecha, comentario) facilitan la colaboración dentro del proyecto, ya que entregan un resumen del commit realizado.
+
+El ID del commit, entre otras funcionalidades, permite viajar de un commit a otro con git checkout, o regresar a un commit y borrar todos los que se han creado despues de él utilizando git reset.
+
+## Reset
+
+GIT utiliza el comando git reset para borrar commits que ya no sean necesarios o para volver a punto del proyecto en donde todo funcionaba bien antes de hacer ciertos commits. Este comando tiene tres formas de ser aplicado:
+```bash
+git reset --hard ID
+```
+<br/>
+El cual borra todos los commits anteriores al ID ingresado (ejemplo: si ejecutamos el comando con el ID 0f16143e0ab905288f9aa93419391a35f5b65224 de la Figura 1, el commit anterior a ese ID sera borrado, y el HEAD apuntara a ese ID).
+
+Por otra parte, está el comando:
+```bash
+git reset --mixed ID
+```
+<br/>
+Que borra los commits superiores pero no se mete con el Working Area, es decir, solo cambiará el Stagging Area y volveremos al paso de selección de los archivos que irán al repositorio (git add). Por lo general, este comando se utiliza para sintetizar, por ejemplo, 10 commits en 1.
+
+Y por último tenemos el comando:
+```bash
+git reset --soft ID
+```
+<br/>
+Que hace cambios solo en el Repository Area y deja intactos el Working y el Stagging Area, es decir, los archivos quedan listos para el commit.
+
+Si se necesita volver a los commits borrados, es necesario tener los ID y utilizar el mismo comando para volver a dichos commits (ejemplo: si ejecutamos el comando con el ID 06dbdfbd970df442ee0f972c0735d3cb1fc0ef6a de la Figura 1, el commit con ese ID y todos los anteriores a él serán recuperados, y el HEAD apuntara a ese ID).
+
+## Referencias y Enlaces Recomendados
+
+**[1]** [https://platzi.com/cursos/git-github/](https://platzi.com/cursos/git-github/)

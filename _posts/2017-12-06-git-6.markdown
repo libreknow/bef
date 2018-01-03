@@ -1,0 +1,132 @@
+---
+layout: post
+title: "GIT (II): Inicio y Arquitectura"
+img: github.png # Add image post (optional)
+date: 2017-11-22 21:00:00 +0300
+description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+tag: [Control de Versiones, GIT]
+---
+¿Cómo lograr que varias personas colaboren en un mismo proyecto sin armar un gran desorden? Hoy en día existen páginas web especializadas en la colaboración y gestión de proyectos de desarrollo web. Una de las más populares es GitHub, una red social para alojar proyectos utilizando GIT, y en donde se desarrollan y gestionan proyectos públicos y privados de todo el mundo.
+Proyectos Públicos en GitHub.
+
+Los proyectos públicos son accedidos desde GitHub Explore, y se pueden encontrar de todo tipo: applicaciones gubernamentales, lenguajes de programación, frameworks para desarrollo web, etc (ver Figura 1).
+
+<div class="img_post_container">
+<img class="img_post" src="https://imgur.com/upfb4ey.png" alt="GitHub Explorer">
+Figura 1: Tipos de Proyectos en GitHub.
+</div>
+<br/>
+Dentro de estos tipos de proyectos se pueden encontrar algunos muy conocidos y usados por desarrolladores web: Linux, Ruby, Rails, PHP, Laravel, Python, Django, AngularJS, NodeJS, Bootstrap, jQuery, Ubuntu, Wordpress, Drupal, hasta el mismisimo GIT, entre otros (ver Figura 2).
+
+<div class="img_post_container">
+<img class="img_post" src="https://imgur.com/CBJSSJ7.png" alt="Proyectos Open Source">
+Figura 2: Proyectos en GitHub.
+</div>
+<br/>
+Todos estos proyectos son de codigo abierto, es decir, que cualquier persona de cualquier parte del mundo puede acceder al código fuente de estos proyectos. Desde aquí se pueden tomar dos caminos:
+
+* **Exploración**: buscar proyectos existentes y crear proyectos nuevos a partir de ellos.
+
+    El primer paso de este camino es clonar el proyecto utilizando:
+    ```bash
+    git clone repositorioViaSSHoHTTPS
+    ```
+    <br/>
+    Lo que sigue despues, depende del desarrollador y sus ideas :)
+
+* **Colaboración**: aportar desarrollo a los proyectos existentes y fortalecerlos.
+
+    El primer paso es clonar el proyecto y comenzar a trabajar en él a traves de nuevos cambios. Lo siguiente es proponer estos cambios, a traves de un pull request, a el/los propietario/s del proyecto original. Estos propietarios revisaran la propuesta y decidiran si pasa a formar parte del proyecto o no. En caso de que no, se explicarán las razones respectivas del porque. De todas maneras, en ambos casos (si o no), se ganan nuevos aprendizajes :).
+
+GitHub permite tener cuentas publicas (gratuitas) o privadas (de pago) y almacenar el código fuente de tus proyectos en tu propio repositorio. La pregunta que surge ahora es ¿Cómo conectar mi computadora (o más bien mi repositorio de local de algún proyecto) con un repositorio remoto de GitHub?
+Conexión a GitHub usando SSH.
+
+SSH (Secure Shell) es un protocolo y programa para acceder, de manera segura, a máquinas remotas a través de una red (en este caso, a GitHub). Esta conexión se hace a traves de dos llaves:
+
+* **Llave Privada**: código de nuestra máquina local donde estamos trabajando (por ejemplo: nuestro computador). Su objetivo es verificar que la llave pública ingresada en el servidor remoto, sea la correcta.
+
+* **Llave Pública**: código para colocar en el servidor remoto (por ejemplo: GitHub). Su objetivo es verificar que la llave privada de la máquina local sea la correcta.
+
+A continuación se explican los pasos a seguir para establecer una conexión por SSH a GitHub:
+
+i) Generar la llave pública y la llave privada. En Linux, esto se hace a traves del siguiente comando:
+```bash
+ssh-keygen -t rsa -b 4096 -C emailGitHub
+```
+<br/>
+-t rsa : algoritmo de cifrado a utilizar para generar las llaves (en este caso se utiliza RSA).
+
+-b 4096 : número de bits de las llaves.
+
+-C emailGitHub : correo de la cuenta GitHub.
+
+El resultado del ingreso de este comando se puede ver en la Figura 3.
+
+<div class="img_post_container">
+<img class="img_post" src="https://imgur.com/7KBVynD.png" alt="Generación de Llave Pública y Privada">
+Figura 3: Generación de Llave Pública y Privada.
+</div>
+<br/>
+El passphrase es una nueva capa de seguridad, una contraseña más para el acceso por SSH, es opcional.
+
+En cuanto a la llaves generadas, la llave pública se almacena en el archivo id_rsa.pub y la llave privada en id_rsa, en el directorio /home/USUARIO/.ssh (la ruta también se especifica en el resultado del comando ingresado).
+
+ii) Copiar el contenido del archivo id_rsa.pub e ir a la cuenta de GitHub, a la parte de configuración e ir a SSH keys (Figura 4).
+
+<div class="img_post_container">
+<img class="img_post" src="https://imgur.com/LOO8BbP.png" alt="SSH keys">
+Figura 4: SSH keys.
+</div>
+<br/>
+Como se puede ver, actualmente no existe ninguna llave SSH en la cuenta de GitHub, por lo que para ingresar la llave generada en el paso 1, ir a New SSH key. En la nueva pantalla desplegada (Figura 5) pegar la llave copiada del archivo id_rsa.pub e ir a Add SSH key.
+
+<div class="img_post_container">
+<img class="img_post" src="https://imgur.com/kfbtQXE.png" alt="Creación Llave SSH">
+Figura 5: Creación Llave SSH.
+</div>
+<br/>
+Para finalizar la creación de la llave, se debe ingresar la contraseña de la cuenta GitHub. Finalmente la llave sera creada y se vera reflejada en la lista de llaves (Figura 6)
+
+<div class="img_post_container">
+<img class="img_post" src="https://imgur.com/RoyLonl.png" alt="Lista Llaves SSH">
+Figura 6: Lista Llaves SSH.
+</div>
+<br/>
+iii) Verificar la conexión SSH. Crear un nuevo repositorio vacio en GitHub (Figura 7).
+
+<div class="img_post_container">
+<img class="img_post" src="https://imgur.com/ZktZ8z7.png" alt="Nuevo Repositorio Creado">
+Figura 7: Nuevo Repositorio Creado.
+</div>
+<br/>
+Crear un nuevo proyecto en la maquina local y hacer una iteración básica de prueba con GIT:
+```bash
+mkdir ejercicio-github-local-remote
+cd ejercicio-github-local-remote
+echo "# Prueba de Conexión Remota" >> README.md
+git init
+git add -A README.md
+git commit -m "Primer commit"
+```
+<br/>
+Finalmente, subir los cambios del repositorio local al repositorio remoto en GitHub (Los comandos para esto se muestran en la Figura 8).
+
+<div class="img_post_container">
+<img class="img_post" src="https://imgur.com/jFAtf3m.png" alt="git push">
+Figura 8: Subir Cambios desde Local a GitHub.
+</div>
+<br/>
+Si se dirigen a la cuenta de GitHub, podran ver que lo cambios se han subido sin problemas. ¡ Muy Bien ! Ahora tienen su repositorio local GIT sincronizado con su repositorio remoto en GitHub :). Si vuelven a hacer cambios, solo deben hacer la iteración básica respectiva y luego hacer un git push origin master, y así iran actualizando su repositorio remoto en GitHub.
+Conclusión.
+
+En uno de los primeros artículos de este blog, se hablo de la importancia de la libertad y la colaboración en torno al software y al conocimiento. Dentro de esta temática, GitHub, a traves de su web, fomenta los proyectos libres y la colaboración en estos mismos. Proponer nuevas ideas (en GIT: nuevas ramas) es una de las habilidades más importantes para seguir aprendiendo, creciendo, y que otros aprendan y crezcan a traves de nuevas propuestas a sus proyectos (en GitHub: pull request). Siempre van a existir diversas formas de resolver un problema, ya que cada persona tiene una creatividad única para generar esas soluciones.
+
+Hoy en día empresas como Google, Facebook, Twitter, y las buenas empresas de desarrollo de software en general, no ponen mucha atención en tus diplomas o certificaciones, si no más bien en tu portafolio de proyectos, en el caso del desarrollo web, es que tu código de programación sea bonito, legible, optimo, elegante, entre otras características :P.
+
+Empezar a crear o a mover tus proyectos a GitHub, es un buen paso para comenzar a crear un portafolio de proyectos, que te pueda servir como carta de presentación en una empresa o ante clientes si es que se desea emprender o trabajar como freelancer.
+
+Con esto, finalizo la serie de artículos sobre GIT, cualquier acotación o pregunta que tengan, dejenla en los comentarios ;)
+
+## Referencias y Enlaces Recomendados
+
+**[1]** [https://platzi.com/cursos/git-github/](https://platzi.com/cursos/git-github/)
