@@ -2,7 +2,7 @@
 layout: post
 title: "GIT (III): Commits y Reset"
 img: reset.png # Add image post (optional)
-date: 2017-11-22 21:00:00 +0300
+date: 2017-11-27 21:00:00 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 tag: [Control de Versiones, GIT]
 ---
