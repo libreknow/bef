@@ -11,34 +11,36 @@ Al ir creando commits es importante etiquetar los más importantes, es decir, aq
 Los tags especifican momentos importantes del repositorio. Puede ser una nueva versión del proyecto, una nueva funcionalidad, etc. Estos pueden tomar dos formas:
 
 * **Annotated Tags**: enfocados en generar un tag con la versión y un comentario.
-```bash
-git tag -a version -m "comentario"
-```
-<br/>
-Un resultado de ejemplo de este comando se puede ver a traves de un git log avanzado:
 
-<div class="img_post_container">
-<img class="img_post" src="https://imgur.com/TQnTtEE.png" alt="Resultado 1 Tag">
-Figura 1: Resultado 1 Tag.
-</div>
-<br/>
-Se puede ver que el commit con el ID dc6e6a6 ha sido marcado como la versión 1.0 de un proyecto X. Si se requiere ver más detalle del tag, se puede hacer un git log normal:
+  ```bash
+  git tag -a version -m "comentario"
+  ```
+  <br/>
+  Un resultado de ejemplo de este comando se puede ver a traves de un git log avanzado:
 
-<div class="img_post_container">
-<img class="img_post" src="https://imgur.com/MHRIi5R.png" alt="Resultado 2 Tag">
-Figura 2: Resultado 2 Tag.
-</div>
-<br/>
+  <div class="img_post_container">
+  <img class="img_post" src="https://imgur.com/TQnTtEE.png" alt="Resultado 1 Tag">
+  Figura 1: Resultado 1 Tag.
+  </div>
+  <br/>
+  Se puede ver que el commit con el ID dc6e6a6 ha sido marcado como la versión 1.0 de un proyecto X. Si se requiere ver más detalle del tag, se puede hacer un git log normal:
+
+  <div class="img_post_container">
+  <img class="img_post" src="https://imgur.com/MHRIi5R.png" alt="Resultado 2 Tag">
+  Figura 2: Resultado 2 Tag.
+  </div>
+  <br/>
 * **Lightweight Tags**: enfocados en generar un tag con solo la versión.
-```bash
-git tag version
-```
-<br/>
-Cabe destacar que los comandos anteriores solo insertan el tag en el último commit. Si se necesita crear un tag en un commit antiguo, se debe utilizar:
-```bash
-git tag -a version commitID
-```
-<br/>
+
+  ```bash
+  git tag version
+  ```
+  <br/>
+  Cabe destacar que los comandos anteriores solo insertan el tag en el último commit. Si se necesita crear un tag en un commit antiguo, se debe utilizar:
+  ```bash
+  git tag -a version commitID
+  ```
+  <br/>
 Otros comandos para complementar el uso de tags son los siguientes:
 ```bash
 git tag # Lista los tags disponibles

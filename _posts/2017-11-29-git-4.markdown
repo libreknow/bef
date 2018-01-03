@@ -77,11 +77,11 @@ Con este último comando, la rama X se deberia fusionar con la rama master, pero
 
 1. **Fast-forward:** mezcla todos los cambios y crea el nuevo commit a partir de ello.
 
-Causa: cuando se editan archivos distintos (por ejemplo: rama 1 se edita el CSS y en la rama 2 se edita el JS).
+  Causa: cuando se editan archivos distintos (por ejemplo: rama 1 se edita el CSS y en la rama 2 se edita el JS).
 
 2. **Manual Merge:** se deben revisar los archivos linea por linea para ir generando el commit de la fusión correspondiente.
 
-Causa: cuando se editan archivos iguales (mismas lineas de código).
+  Causa: cuando se editan archivos iguales (mismas lineas de código).
 
 En el primer caso, GIT hace la fusión directamente sin problemas, pero en el segundo caso, GIT no hace la fusión (muestra un mensaje como el siguiente: Automatic merge failed) y marca todas las lineas de código distintas entre una rama y otra. En los archivos en conflicto se podra ver lo siguiente:
 
