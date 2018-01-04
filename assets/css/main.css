@@ -3850,7 +3850,7 @@ template {
 body {
   font-family: "Lato", sans-serif;
   -webkit-font-smoothing: antialiased;
-  background-color: #262626;
+  background-color: #054E71;
   margin: 0;
 }
 
@@ -3939,7 +3939,7 @@ cite {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #1c1c1c;
+  background-color: #033C57;
   z-index: 1;
 }
 
@@ -4133,7 +4133,7 @@ cite {
 .pagination a, .pagination span {
   padding: 0.5rem 1rem;
   display: inline-block;
-  color: #6e6e6e;
+  color: #ffffff;
 }
 
 .pagination a {
@@ -4145,11 +4145,11 @@ cite {
 }
 
 .pagination .active {
-  border-bottom: 1px solid #6e6e6e;
+  border-bottom: 1px solid #ffffff;
 }
 
 .pagination .active:hover {
-  color: #6e6e6e;
+  color: #ffffff;
 }
 
 .top {
@@ -4197,7 +4197,7 @@ cite {
 }
 
 .main_footer {
-  background-color: #1c1c1c;
+  background-color: #033C57;
 }
 
 .social_footer {
@@ -4205,7 +4205,7 @@ cite {
   list-style: none;
   margin: 0;
   text-align: center;
-  border-bottom: 1px solid #333333;
+  border-bottom: 1px solid #033C57;
 }
 
 .social_footer li {
@@ -4214,7 +4214,7 @@ cite {
 }
 
 .social_footer a {
-  color: #7b7b7b;
+  color: #ffffff;
   display: inline-block;
   padding: 0.5rem 1rem;
   margin: 0.3rem 0;
@@ -4222,13 +4222,13 @@ cite {
   font-size: 1.75rem;
   -webkit-border-radius: 0.3rem;
           border-radius: 0.3rem;
-  background-color: #262626;
+  background-color: #054E71;
   -webkit-transition: all .35s ease-in-out;
   transition: all .35s ease-in-out;
 }
 
 .social_footer a:hover {
-  background-color: green;
+  background-color: #22769E;
   color: #ffffff;
 }
 
@@ -4612,7 +4612,7 @@ cite {
 }
 
 .about .about_social .social_footer a:hover {
-  color: green;
+  color: #054E71;
 }
 
 .contact {
@@ -4691,7 +4691,7 @@ cite {
 }
 
 .container_contact .form .form_btn:hover {
-  background-color: rgba(191, 127, 127, 0.6);
+  background-color: rgba(43, 213, 27, 0.4);
   color: #ffffff;
 }
 
