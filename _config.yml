@@ -9,14 +9,14 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Banner settings
-video: Perfect_Hour.mp4 # mountains.mp4 # add banner video. Add your video file to the folder video
+video: Sunset-Lapse.mp4 # mountains.mp4 # add banner video. Add your video file to the folder video
 banner-title: Libre Know # add banner title
 banner-desc: # add banner description
 
 # Author settings
 author-pic: yoMachu.jpeg # your photo
 author-name: Pablo Arak # your name
-about-author: Me gusta el desarrollo web, el cine, el anime, los mangas, salir a trotar, hacer trekking, viajar, biodanzar, escuchar musica variada, tocar piano... Una de mis pasiones hoy en día es la Cocina Natural, disfruto mucho cocinarme, cocinar a otr@s y probar otras recetas de este tipo de cocina. Me encanta organizar y participar en cenas u otro tipo de eventos con amig@s.  # about author
+about-author: Trabajo en Desarrollo Web, y a medida que aprendo cosas nuevas, me gusta ir compartiendolas. Soy un apasionado de la Cocina Natural y de hacer eventos en torno a ella. Además, me encanta el cine, las series, el anime, los mangas, caminar, trotar, jugar, viajar... # about author
 email: pablo.arak.vm@gmail.com # your email
 phone:  # your pnone number
 website: http://libreknow.org # you website
