@@ -1,0 +1,127 @@
+---
+layout: post
+title: "GIT (IV): Ramas y Fusiones"
+img: gitBranch.png # Add image post (optional)
+date: 2017-11-29 21:00:00 +0300
+description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+tag: [Control de Versiones, GIT]
+---
+Una ves entendidas las características principales de un commit, se puede comenzar a hablar de ramas y fusiones.
+
+## Ramas.
+
+Hasta ahora se ha visto que en el Repository Area solo existe una linea de tiempo respecto a los commits generados. Esta linea de tiempo representa la rama principal del proyecto o la rama master. Desde aquí, pueden surgir nuevas ideas o propuestas, y para que estas puedan ser probadas antes de ser implementadas en la rama master, se utilizan ramas.
+
+Una rama es un mundo paralelo a la rama master, es una linea alterna de tiempo en la historia de nuestro repositorio.
+
+El uso de las ramas va orientado a probar nuevas ideas, ejecutar nuevas características (por ejemplo: en un proyecto web, la parte de responsive design) y arreglar problemas con bug fixes.
+
+¿Y como se crea una rama? (Ver Figura 1)
+
+<div class="img_post_container">
+<img class="img_post" src="https://imgur.com/uCwWi7y.png" alt="Creación de una Rama">
+Figura 1: Creación de una Rama.
+</div>
+<br/>
+Para crear una rama se puede utilizar:
+```bash
+git checkout -b nombreRama
+```
+<br/>
+O:
+```bash
+git branch nombreRama
+```
+<br/>
+Con estos sencillos comandos, quedamos situados en la rama nombreRama y se podra comenzar a aplicar nuevas ideas o arreglos de errores, para así probar su funcionamiento. Lo siguiente es hacer el add y commit correspondiente, los cuales se pueden hacer al mismo tiempo con el siguiente comando:
+```bash
+git commit -am ".."
+```
+<br/>
+Luego, si se hace un git log más personalizado:
+```bash
+git log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white) - %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+```
+<br/>
+Se podra ver, verticalmente, el histórico de commits y ramas creadas hasta el momento. Un ejemplo con varias ramas se muestra en la Figura 2.
+
+<div class="img_post_container">
+<img class="img_post" src="https://imgur.com/JNvz4SH.png" alt="Histórico de Commits y Ramas">
+Figura 2: Histórico de Commits y Ramas.
+</div>
+<br/>
+En esta vista se puede ver, de izquierda a derecha, la rama trazada por "asteriscos", una parte del ID del commit, hace cuanto se realizó el commit, el comentario, el autor, la posición actual del HEAD y el nombre de la rama respectiva.
+
+Una ves aplicada y probada la idea o corrección a la rama respectiva, es momento de fusionar esta rama con la rama master, para así implementar los nuevos cambios en el proyecto principal.
+
+## Fusión de Ramas.
+
+Poner atención en la Figura 3.
+
+<div class="img_post_container">
+<img class="img_post" src="https://imgur.com/JlQIhcR.png" alt="Fusión de Ramas">
+Figura 3: Fusión de Ramas.
+</div>
+<br/>
+Con el comando:
+```bash
+git checkout master
+```
+<br/>
+Se regresa a la rama principal, y luego se ejecuta:
+```bash
+git merge X
+```
+<br/>
+Con este último comando, la rama X se deberia fusionar con la rama master, pero la fusión puede tomar dos caminos dependiendo del caso:
+
+1. **Fast-forward:** mezcla todos los cambios y crea el nuevo commit a partir de ello.
+
+  Causa: cuando se editan archivos distintos (por ejemplo: rama 1 se edita el CSS y en la rama 2 se edita el JS).
+
+2. **Manual Merge:** se deben revisar los archivos linea por linea para ir generando el commit de la fusión correspondiente.
+
+  Causa: cuando se editan archivos iguales (mismas lineas de código).
+
+En el primer caso, GIT hace la fusión directamente sin problemas, pero en el segundo caso, GIT no hace la fusión (muestra un mensaje como el siguiente: Automatic merge failed) y marca todas las lineas de código distintas entre una rama y otra. En los archivos en conflicto se podra ver lo siguiente:
+
+<<<<<<<<<< HEAD
+CODIGO 1
+===============
+CODIGO 2
+>>>>>>>>> RAMA X
+
+Para este caso, hay que revisar archivo por archivo, linea por linea, elegír el mejor código y hacer una iteración básica (add y commit) para finalizar la fusión manual.
+
+## Fusión con Rebase.
+
+Existe otra técnica de fusión llamada rebase, con la cual se pueden conservar todos los commits de la rama X y no perderlos (Ver Figura 4).
+
+<div class="img_post_container">
+<img class="img_post" src="https://imgur.com/og8ofOl.png" alt="Fusión con Rebase">
+Figura 4: Fusión con Rebase.
+</div>
+<br/>
+El comando:
+```bash
+git rebase master
+```
+<br/>
+Empuja la rama actual adelante de la rama master. Esta última se mantiene en su posición (C4), por lo que, finalmente, para juntar ambas ramas se utiliza:
+```bash
+git merge X
+```
+<br/>
+Esta técnica de fusión no es muy usada, salvo en casos especiales.
+
+La idea de las fusiones es ir mezclando las ramas para tener la red de commits del proyecto más ordenada. Una rama no se puede borrar a menos que se haya hecho una fusión.
+
+Finalmente, para borrar una rama (si es necesario, y si es despues de una fusión) se utiliza:
+```bash
+git branch -d nombreRama
+```
+<br/>
+
+## Referencias y Enlaces Recomendados
+
+**[1]** [https://platzi.com/cursos/git-github/](https://platzi.com/cursos/git-github/)

@@ -1,0 +1,64 @@
+---
+layout: post
+title: "GIT (V): Tags"
+img: gitTag.png # Add image post (optional)
+date: 2017-12-04 21:00:00 +0300
+description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+tag: [Control de Versiones, GIT]
+---
+Al ir creando commits es importante etiquetar los más importantes, es decir, aquellos que representan un cambio importante a nivel del proyecto. Para ello se utilizan los tags, que son una técnica para abanderar los commits.
+
+Los tags especifican momentos importantes del repositorio. Puede ser una nueva versión del proyecto, una nueva funcionalidad, etc. Estos pueden tomar dos formas:
+
+* **Annotated Tags**: enfocados en generar un tag con la versión y un comentario.
+
+  ```bash
+  git tag -a version -m "comentario"
+  ```
+  <br/>
+  Un resultado de ejemplo de este comando se puede ver a traves de un git log avanzado:
+
+  <div class="img_post_container">
+  <img class="img_post" src="https://imgur.com/TQnTtEE.png" alt="Resultado 1 Tag">
+  Figura 1: Resultado 1 Tag.
+  </div>
+  <br/>
+  Se puede ver que el commit con el ID dc6e6a6 ha sido marcado como la versión 1.0 de un proyecto X. Si se requiere ver más detalle del tag, se puede hacer un git log normal:
+
+  <div class="img_post_container">
+  <img class="img_post" src="https://imgur.com/MHRIi5R.png" alt="Resultado 2 Tag">
+  Figura 2: Resultado 2 Tag.
+  </div>
+  <br/>
+* **Lightweight Tags**: enfocados en generar un tag con solo la versión.
+
+  ```bash
+  git tag version
+  ```
+  <br/>
+  Cabe destacar que los comandos anteriores solo insertan el tag en el último commit. Si se necesita crear un tag en un commit antiguo, se debe utilizar:
+  ```bash
+  git tag -a version commitID
+  ```
+  <br/>
+Otros comandos para complementar el uso de tags son los siguientes:
+```bash
+git tag # Lista los tags disponibles
+```
+<br/>
+```bash
+git show version # Muestra el detalle y el commit de la version de un tag
+```
+<br/>
+```bash
+git checkout version # regresa al commit usando la version de un tag
+```
+<br/>
+```bash
+git tag -l version # busca un tag por version
+```
+<br/>
+
+## Referencias y Enlaces Recomendados
+
+**[1]** [https://platzi.com/cursos/git-github/](https://platzi.com/cursos/git-github/)
