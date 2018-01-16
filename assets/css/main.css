@@ -4412,6 +4412,10 @@ cite {
   content: " — ";
 }
 
+.author .author_info .author_subtitle {
+  text-align: justify;
+}
+
 .author .author_social span {
   display: inline-block;
   color: #667085;

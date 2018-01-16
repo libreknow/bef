@@ -13,7 +13,6 @@ Atom es un editor de código para sistemas Linux, macOS y Windows. Fue creado po
 Figura 1: Atom.
 </div>
 <br/>
-
 ## Instalación de Paquetes
 
 Para instalar un nuevo paquete en Atom se debe ingresar primero a la configuración (File > Settings o con la combinación de teclas CTRL + ,), luego ir a la pestaña "Install" y escribir el nombre del paquete que se desea buscar. Una forma más rápida de acceder a esta ventana es a través de la combinación de teclas CTRL + SHIFT + p, se escribe "Install packages" y se elige "Settings View:Install Packages and Themes".
@@ -43,7 +42,6 @@ Lo que al presionar TAB se convierte en lo siguiente:
 </div>
 ```
 <br/>
-
 ### atom-beautify
 
 Este paquete ayuda a limpiar el código y hacerlo más legible. Al seleccionar las lineas de código a ordenar, se debe escribir "beautify" en la barra de comandos (CTRL + SHIFT + p). Un ejemplo con HTML es el siguiente:
@@ -72,14 +70,16 @@ Con "beautify" se convierte en lo siguiente:
   </body>
 </html>
 ```
-
+<br/>
 ### Linter
 
 Linter ayuda a crear consistencia y establecer mejores prácticas en el código. El paquete de Linter se basa en subpaquetes para códigos específicos, el listado de estos se pueden encontrar en https://atomlinter.github.io/ . Algunos de estos subpaquetes son:
 
-  * linter-eslint: para código Javascript.
-  * linter-scss-lint: para código SCSS (es necesario tener Ruby instalado y la última versión de la Gema scss-lint).
-  * linter-rubocop: para código Ruby.
+  * **linter-eslint**: para código Javascript.
+
+  * **linter-scss-lint**: para código SCSS (es necesario tener Ruby instalado y la última versión de la Gema scss-lint).
+
+  * **linter-rubocop**: para código Ruby.
 
 ### Highlight Selected
 
@@ -90,7 +90,6 @@ Este paquete permite resaltar (en todo el archivo de código) una palabra selecc
 Figura 2: Selección de Palabras.
 </div>
 <br/>
-
 ### File Icons
 
 El paquete File Icons permite mostrar iconos especificos para cada archivo dependiendo de su tipo (Javascript, Ruby, Python, TypeScript, Java, HTML, CSS, etc).
@@ -100,7 +99,6 @@ El paquete File Icons permite mostrar iconos especificos para cada archivo depen
 Figura 3: Iconos de Archivos.
 </div>
 <br/>
-
 ### Pigments
 
 Pigments permite ver los colores en css o en preprocesadores (como SASS) en vivo y en directo. En la Figura 4 se puede ver un ejemplo de como se veria.
@@ -110,7 +108,6 @@ Pigments permite ver los colores en css o en preprocesadores (como SASS) en vivo
 Figura 4: Colores en CSS.
 </div>
 <br/>
-
 ### Minimap
 
 Este paquete muestra una vista previa del archivo en el lado derecho del editor, en donde, utilizando el mouse, es posible moverse más rapidamente a través del archivo. También se pueden activar y desactivar los aspectos destacados del código, así como cambiar la vista previa para que esté en el lado izquierdo. Si se desea profundizar, tiene un montón de otras personalizaciones.
@@ -120,7 +117,6 @@ Este paquete muestra una vista previa del archivo en el lado derecho del editor,
 Figura 5: Minimap.
 </div>
 <br/>
-
 ## Y mucho más
 
 Existen muchos más paquetes y ahora tan solo he cubierto algunos. Estos son la mayoria de los paquetes que yo uso para desarrollar y que me ayudan a la hora de codear :)
