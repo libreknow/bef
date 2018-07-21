@@ -1,0 +1,97 @@
+---
+layout: post
+title: "Angular 4 (I): Introducción"
+img: angular4-1.png # Add image post (optional)
+date: 2018-07-21 15:30:00 +0400
+description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+tag: [Frameworks, Angular, Frontend]
+---
+Angular es un Framework basado en Javascript (JS) para crear "Single Page Applications" (SPA). En las SPA el Browser nunca redirige a otra página, si no que Angular y el Router se encargan de reedirigir el flujo de las páginas. Esto disminuye notablemente los tiempos de carga de la aplicación misma.
+
+Desde sus comienzos, Angular a pasado por una gran cantidad de cambios, desde su lanzamiento como Angular 1 hasta el gran cambio que implicó Angular 2, lo cual cambió Angular completamente y corrigio los errores que habian. Despues de este cambio, hubo un desalineamiento de las versiones de las principales librerias de Angular, y para volver a alinearse se decidió saltar de Angular 2 a Angular 4. Esta última versión es de soporte a largo plazo (LTS) desde Octubre de 2017 hasta Octubre de 2018.
+
+Actualmente Angular se encuentra en la versión 5 (y ya en fase Beta de la versión 6). No hay que asustarse con este cambio constante de versión, no son cambios como los de la versión 1 a la 2, son principalmente mejoras y pequeñas correcciones. Tampoco hay que complicarse mucho con el "como llamar a Angular", es decir, pueden referirse a la versión 1 como AngularJS o Angular 1 y al resto de las versiones como Angular o Angular[Número de Versión]. Para esta serie de articulos que comienza ahora, hablaré de Angular 4, y me referire a el solo con el nombre Angular, exceptuando los títulos (Angular 4 ...), ya que más adelante haré artículos que hablen de las otras versiones de Angular y sus mejoras respecto a la anterior (Angular 5, 6, etc).
+
+Ahora explicaré algunos conceptos básicos de Angular que hay que conocer antes de meterse en el mundo de este Framework :)
+
+## TypeScript
+
+Para desarrollar en Angular se utiliza el lenguaje de programación Typescript, que es una mejora de JS, añadiendo tipos, clases, interfaces, entre otros agregados. Un ejemplo de código seria el siguiente:
+```typescript
+class Saludo {
+
+  var mensajeSaludo:string = "Holaaaaa!!"
+
+  saludar():void {
+    console.log(this.mensajeSaludo)
+  }
+}
+
+var objetoSaludo = new Saludo();
+
+objetoSaludo.saludar();
+```
+<br/>
+Typescript es un lenguaje transpilado, es decir, se compila y se traduce a JS para que los navegadores lo entiendan.
+
+## Requisitos de Uso
+
+Para comenzar a crear proyectos con Angular es necesario tener lo siguiente:
+
+* NodeJS: entorno para ejecutar JS en el sistema operativo (para ello utiliza el motor Javascript V8 de Google).
+* NPM (Node Package Manager): administrador de paquetes de JS (librerias o dependencias).
+* Un editor de código (yo uso Atom).
+* Angular CLI: herramienta de consola que facilita la creación de proyectos, componentes, rutas, servicios, pipes, etc. Ademas nos permite ejecutar las aplicaciones de manera local, hacer pruebas y preparar el proyecto para producción.
+
+## Estructura de Archivos
+
+En la Figura 1 se puede ver una descripción de la estructura de archivos por defecto que trae un proyecto Angular:
+
+<div class="img_post_container">
+<img class="img_post" src="https://imgur.com/RWl1SZu.png" alt="Estructura Proyecto Angular">
+Figura 1: Estructura Proyecto Angular.
+</div>
+<br/>
+## Modulos
+
+Los módulos son el bloque más grande en que se puede dividir una aplicación en Angular. Estos módulos pueden ser de 3 tipos: propios, de terceros o nativos de Angular (Figura 2).
+
+<div class="img_post_container">
+<img class="img_post" src="https://imgur.com/te2Wzr4.png" alt="Módulos de una Aplicación">
+Figura 2: Módulos de una Aplicación.
+</div>
+<br/>
+Una característica importante de los módulos es que pueden ser reutilizados en otras aplicaciones. Por ejemplo, se podria reutilizar el modulo de Compras y Soporte (Figura 2) en otra aplicación cuyos requerimientos esten relacionados a ventas de productos y soporte a clientes. Una de las ventajas importantes de esto es que se logra ahorrar tiempo de desarrollo.
+
+A nivel de código, para declarar y crear un modulo, se utiliza la palabra reservada @NgModule. Por defecto, los proyectos Angular traen un archivo TS para el manejo de modulos llamado app.module.ts. A continuación se describe la estructura básica de un módulo:
+```typescript
+@NgModule({ // En cada array se llaman distintas tecnologías
+  declarations: [
+    AppComponent // Las componentes que se usaran en la aplicación
+  ],
+  imports: [
+    BrowserModule // Los módulos que se usaran en la aplicación
+  ],
+  providers: [], // Los servicios que se usaran en la aplicación
+  bootstrap: [AppComponent] // El componente con el cual se iniciara la aplicación
+})
+```
+<br/>
+## Componentes
+
+Las Componentes son partes independientes de la interfaz de usuario que controlan (en Angular 1 se les conocia como Controladores de las Vistas) una zona de la página Web (Vista). Están compuestas de:
+
+* Un archivo .ts (nombreComponente.component.ts). Aquí se utiliza el selector @Component, el cual es un tag HTML que reconocera Angular para insertar esta Componente en el Modulo.
+* Un template .html (nombreComponente.component.html).
+* Un CSS opcional (nombreComponente.component.css).
+
+Teniendo estos archivos, se exporta la clase del Componente para ser usada en el modulo correspondiente.
+
+Como buena práctica, no se recomienda que existan multiples Componentes en una Vista, por lo que cada una de las Vistas debiese ser un Componente.
+
+En la Figura 2 anterior, por ejemplo, el modulo de Compras podria tener una Componente de "Productos" (la vista con el listado de los productos en venta), "Carrito de Compras" (la vista con los productos elegidos para comprar) y otra de "Pagos" (la vista para efectuar la compra de los productos elegidos).
+
+## Referencias y Enlaces Recomendados
+
+**[1]** [https://platzi.com/clases/angular/](https://platzi.com/clases/angular/)
+**[2]** [http://blog.enriqueoriol.com/2017/03/introduccion-angular-modulo-y-componente.html](http://blog.enriqueoriol.com/2017/03/introduccion-angular-modulo-y-componente.html)
