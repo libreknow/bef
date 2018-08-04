@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Angular 4 (I): Introducción"
-img: angular4-1.png # Add image post (optional)
+img: angular4_1.png # Add image post (optional)
 date: 2018-07-21 15:30:00 +0400
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 tag: [Frameworks, Angular, Frontend]
@@ -38,10 +38,13 @@ Typescript es un lenguaje transpilado, es decir, se compila y se traduce a JS pa
 
 Para comenzar a crear proyectos con Angular es necesario tener lo siguiente:
 
-* NodeJS: entorno para ejecutar JS en el sistema operativo (para ello utiliza el motor Javascript V8 de Google).
-* NPM (Node Package Manager): administrador de paquetes de JS (librerias o dependencias).
-* Un editor de código (yo uso Atom).
-* Angular CLI: herramienta de consola que facilita la creación de proyectos, componentes, rutas, servicios, pipes, etc. Ademas nos permite ejecutar las aplicaciones de manera local, hacer pruebas y preparar el proyecto para producción.
+* **NodeJS**: entorno para ejecutar JS en el sistema operativo (para ello utiliza el motor Javascript V8 de Google).
+
+* **NPM (Node Package Manager)**: administrador de paquetes de JS (librerias o dependencias).
+
+* **Un editor de código (yo uso Atom)**.
+
+* **Angular CLI**: herramienta de consola que facilita la creación de proyectos, componentes, rutas, servicios, pipes, etc. Ademas nos permite ejecutar las aplicaciones de manera local, hacer pruebas y preparar el proyecto para producción.
 
 ## Estructura de Archivos
 
@@ -81,9 +84,11 @@ A nivel de código, para declarar y crear un modulo, se utiliza la palabra reser
 
 Las Componentes son partes independientes de la interfaz de usuario que controlan (en Angular 1 se les conocia como Controladores de las Vistas) una zona de la página Web (Vista). Están compuestas de:
 
-* Un archivo .ts (nombreComponente.component.ts). Aquí se utiliza el selector @Component, el cual es un tag HTML que reconocera Angular para insertar esta Componente en el Modulo.
-* Un template .html (nombreComponente.component.html).
-* Un CSS opcional (nombreComponente.component.css).
+* **Un archivo .ts (nombreComponente.component.ts)**. Aquí se utiliza el selector @Component, el cual es un tag HTML que reconocera Angular para insertar esta Componente en el Modulo.
+
+* **Un template .html (nombreComponente.component.html)**.
+
+* **Un CSS opcional (nombreComponente.component.css)**.
 
 Teniendo estos archivos, se exporta la clase del Componente para ser usada en el modulo correspondiente.
 
@@ -94,4 +99,5 @@ En la Figura 2 anterior, por ejemplo, el modulo de Compras podria tener una Comp
 ## Referencias y Enlaces Recomendados
 
 **[1]** [https://platzi.com/clases/angular/](https://platzi.com/clases/angular/)
+
 **[2]** [http://blog.enriqueoriol.com/2017/03/introduccion-angular-modulo-y-componente.html](http://blog.enriqueoriol.com/2017/03/introduccion-angular-modulo-y-componente.html)
