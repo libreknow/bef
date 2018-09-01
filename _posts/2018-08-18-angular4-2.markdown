@@ -1,0 +1,156 @@
+---
+layout: post
+title: "Angular 4 (II): Data Bindings"
+img: angular4_2.png # Add image post (optional)
+date: 2018-09-01 15:32:00 +0300
+description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+tag: [Frameworks, Angular, Frontend]
+---
+Los Data Binding son medios de comunicacion entre el código (Typescript) y lo que visualiza el cliente (HTML). La presentación de nuestra aplicación al cliente dependera en gran parte de estos medios. Para utilizarlos existen diferentes medios, los cuales se describen a continuación.
+
+## String Interpolation (Interpolación)
+
+La interpolación permite la presentación de información desde TS a HTML. En el HTML se representa a través de doble llave: "&#123;&#123; información a mostrar (variables, arrays, etc) &#125;&#125;". Un ejemplo de ello se presenta a continuación:
+
+Tenemos el código TS del componente con una 1 variable de texto y 2 numericas, que se desean presentar en la pantalla del cliente:
+
+```typescript
+/* app.component.ts */
+...
+...
+export class AppComponent {
+  saludo = 'Hola Mundo';
+  a = 1;
+  b = 1;
+}
+...
+...
+```
+<br/>
+Luego, usando la notación de doble llave &#123;&#123;&#125;&#125;, escribimos las variables en el HTML, las cuales se visualizaran en la vista respectiva (un "Hola Mundo" y la suma de ambas variables numericas: 2):
+
+<div class="img_post_container">
+<img class="img_post" src="https://imgur.com/8FGGNHa.png" alt="Codigo HTML 1">
+</div>
+<br/>
+## Property Binding (Enlace de Propiedades)
+
+Al igual que en la interpolación, este método permite vincular propiedades desde TS al HTML a través de dos formas:
+
+1) Colocando el nombre del atributo entre corchetes [ ] y el nombre de la propiedad en el valor de este atributo. Por ejemplo:
+
+<div class="img_post_container">
+<img class="img_post" src="https://imgur.com/JamwOKz.png" alt="Codigo HTML 2">
+</div>
+<br/>
+2) Añadiendo “bind-“ al nombre del atributo y el nombre de la propiedad en el valor de este atributo. El ejemplo anterior se escribiria de la siguiente forma:
+
+<div class="img_post_container">
+<img class="img_post" src="https://imgur.com/QSxiMx0.png" alt="Codigo HTML 3">
+</div>
+<br/>
+Si consideramos el siguiente código TS para el ejemplo HTML anterior:
+
+```typescript
+/* app.component.ts */
+...
+...
+export class AppComponent {
+  saludo = 'Hola Mundo';
+  valorOculto = 'true';
+}
+...
+...
+```
+<br/>
+El valor del atributo hidden tomara el valor de la variable "valorOculto", es decir, el texto del parrafo ('Hola Mundo') no se visualizará en la página respectiva.
+
+La diferencia entre el método de Enlace de Propiedades y el de Interpolación es que este último solo acepta valores de tipo String, por lo tanto, el ejemplo anterior no funcionaria con Interpolación, ya que se utilizan valores de tipo Boolean.
+
+## Event Binding (Enlace de Eventos)
+
+Es como el Enlace de Propiedades pero con la diferencia de que se espera una acción específica del usuario. El evento especifico se especifica entre parentesis () y luego se le indica que función se ejecutara al producirse el evento. Un ejemplo de esto seria un evento "click":
+
+<div class="img_post_container">
+<img class="img_post" src="https://imgur.com/kiTOwMy.png" alt="Codigo HTML 4">
+</div>
+<br/>
+En donde la función "hacerAlgo()" se define en el siguiente código TS:
+
+```typescript
+/* app.component.ts */
+...
+...
+export class AppComponent {
+  ...
+  hacerAlgo(){
+    alert('Haciendo algo...');
+  }
+  ...
+}
+...
+...
+```
+<br/>
+Por lo tanto, el usuario al efectuar la acción de click en el boton definido, se ejecutara la función "hacerAlgo()" con el alert respectivo.
+
+## Two Way Data Binding (Enlace de Datos en Dos Vías)
+
+Es una combinación entre Interpolación y Enlace de Propiedades, permite hacer una comunicación en dos vías, es decir,  de HTML a TS y de TS a HTML. Para utilizarlo se necesita cargar el módulo extra "FormsModule" en el archivo "app.module.ts":
+
+```typescript
+/* app.component.ts */
+...
+...
+import { FormsModule } from "@angular/forms";
+...
+@NgModule({
+  declarations: [
+    ...
+  ],
+  imports: [
+    ...
+    FormsModule,
+    ...
+  ],
+  providers: [...],
+  bootstrap: [...]
+})
+...
+export class AppModule { }
+...
+...
+```
+<br/>
+Luego, para utilizar este método, se usa la palabra reservada "ngModel" entre corchetes y parentesis [()], y su resultado va a ser, por ejemplo, el nombre de una variable que estará vinculada a una caja de texto en donde el usuario ingresará su "nombre". Luego de esta acción, en la vista del usuario, se generará automaticamente un mensaje que diga "Hola nombre". A continuación se presenta el código HTML para todo lo descrito:
+
+<div class="img_post_container">
+<img class="img_post" src="https://imgur.com/mSEVHR6.png" alt="Codigo HTML 5">
+</div>
+<br/>
+Y la variable "nombre" se define en el siguiente código TS:
+
+```typescript
+/* app.component.ts */
+...
+...
+export class AppComponent {
+  ...
+  nombre = '';
+  ...
+}
+...
+...
+```
+<br/>
+Por lo tanto, podemos ver el uso complementario entre Interpolación en el "Hola &#123;&#123;nombre&#125;&#125;" y Enlace de Eventos al identificar la acción (evento) del teclado sobre la caja de texto y lograr que cambie la variable nombre en el código TS. Finalmente esto genera el Enlace de Datos en Dos Vías.
+
+## Referencias y Enlaces Recomendados
+
+**[1]** [https://platzi.com/clases/angular/concepto/conceptos-basicos0465](https://platzi.com/clases/angular/concepto/conceptos-basicos0465)
+
+**[2]** [http://blog.codeando.org/articulos/interpolacion-property-y-event-binding-con-angular.html](http://blog.codeando.org/articulos/interpolacion-property-y-event-binding-con-angular.html)
+
+**[3]** [https://codecraft.tv/courses/angular/quickstart/property-and-event-binding/](https://codecraft.tv/courses/angular/quickstart/property-and-event-binding/)
+
+**[4]** [https://www.yash.com/blog/angular-property-bindings/](https://www.yash.com/blog/angular-property-bindings/)
