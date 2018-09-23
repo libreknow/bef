@@ -1,4 +1,4 @@
-# Blog y página personal
+# Blog and Personal Web Page
 
 ## License
 
