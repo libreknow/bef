@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Angular 4 (I): Introducción"
+title: "Angular: Introducción"
 img: angular4_1.png # Add image post (optional)
 date: 2018-07-21 15:30:00 +0400
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
@@ -10,7 +10,7 @@ Angular es un Framework basado en Javascript (JS) para crear "Single Page Applic
 
 Desde sus comienzos, Angular a pasado por una gran cantidad de cambios, desde su lanzamiento como Angular 1 hasta el gran cambio que implicó Angular 2, lo cual cambió Angular completamente y corrigio los errores que habian. Despues de este cambio, hubo un desalineamiento de las versiones de las principales librerias de Angular, y para volver a alinearse se decidió saltar de Angular 2 a Angular 4. Esta última versión es de soporte a largo plazo (LTS) desde Octubre de 2017 hasta Octubre de 2018.
 
-Actualmente Angular se encuentra en la versión 5 (y ya en fase Beta de la versión 6). No hay que asustarse con este cambio constante de versión, no son cambios como los de la versión 1 a la 2, son principalmente mejoras y pequeñas correcciones. Tampoco hay que complicarse mucho con el "como llamar a Angular", es decir, pueden referirse a la versión 1 como AngularJS o Angular 1 y al resto de las versiones como Angular o Angular[Número de Versión]. Para esta serie de articulos que comienza ahora, hablaré de Angular 4, y me referire a el solo con el nombre Angular, exceptuando los títulos (Angular 4 ...), ya que más adelante haré artículos que hablen de las otras versiones de Angular y sus mejoras respecto a la anterior (Angular 5, 6, etc).
+Actualmente Angular se encuentra en la versión 5 (y ya en fase Beta de la versión 6). No hay que asustarse con este cambio constante de versión, no son cambios como los de la versión 1 a la 2, son principalmente mejoras y pequeñas correcciones. Tampoco hay que complicarse mucho con el "como llamar a Angular", es decir, pueden referirse a la versión 1 como AngularJS o Angular 1 y al resto de las versiones como Angular o Angular[Número de Versión]. Para esta serie de articulos me referire a el solo con el nombre Angular.
 
 Ahora explicaré algunos conceptos básicos de Angular que hay que conocer antes de meterse en el mundo de este Framework :)
 

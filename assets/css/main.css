@@ -4599,8 +4599,13 @@ cite {
 }
 
 .about .author .author_info {
+  margin: 0 2rem 0 2rem;
   padding: 0;
   text-align: center;
+}
+
+.about .author .author_info .author_subtitle {
+  margin-bottom: 0;
 }
 
 .about .about_social {
