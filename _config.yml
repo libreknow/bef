@@ -4,7 +4,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-permalink: ':title/'
+permalink: ":title/"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -18,8 +18,8 @@ author-pic: yoCasa.jpeg # your photo
 author-name: Pablo Arak # your name
 about-author: Trabajo como Desarrollador Web Full-Stack. Por otro lado, me apasiona la Salud, el Cuidado y Autocuidado en torno a ella. Estudio Biodanza y Higienismo Integral. Además me dedico a la Biococina y a hacer eventos en torno a ella. Me encanta el cine, las series, el anime, los mangas, el aire libre, la naturaleza, caminar, trotar, jugar (juegos de mesa, consolas y computador), viajar... # about author
 email: pablo.arak.vm@gmail.com # your email
-phone:  # your pnone number
-website: http://libreknow.org # you website
+phone: # your pnone number
+website: http://pabloarak.github.io # http://libreknow.org you website
 
 # Social link
 github_url: https://github.com/pabloarak # add url link
